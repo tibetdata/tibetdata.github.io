@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Datalogs - World Cup Attendance Graph </title>
+    
+     <!-- links to d3 and dimple files -->
+    <!--
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+    -->
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/dimple.v2.0.0.min.js"></script>
+    
+    <!-- Customized D3 charts -->
+    <script src="js/chartD3.js"></script>
+    
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="color/default.css" rel="stylesheet">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="load"></div>
+  </div>
+
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+	  <i class="fa fa-bars"></i>
+	</button>
+	<a class="navbar-brand" href="http://jigdel.github.io/index.html">
+	  <h1>Datalogs</h1>
+	</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+	<ul class="nav navbar-nav">
+	  <li class="active"><a href="http://jigdel.github.io/index.html">Home</a></li>
+	  <li><a href="http://jigdel.github.io/index.html#about">Projects</a></li>
+	  <!--
+	      <li><a href="#service">Service</a></li>
+		<li><a href="#contact">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Example menu</a></li>
+            <li><a href="#">Example menu</a></li>
+            <li><a href="#">Example menu</a></li>
+          </ul>
+        </li>
+	-->
+	</ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <!-- Section: intro -->
+  
+  <section id="intro" class="intro">
+    <div class="slogan">
+      <h2></h2>
+    </div>
+    <div class="container"></div>
+  </section>
+
+  <section id="about" class="home-section text-center">
+    <script type="text/javascript">
+		      /*
+	      Use D3 (not dimple.js) to load the TSV file
+	      and pass the contents of it to the draw function
+	      */
+	      
+	      //example date:27-05-1934 (16:00 h)
+	      //note all times are local, not an issue here
+	      //format = d3.time.format("%d-%m-%Y (%H:%M h)");
+	      /*
+	      //parse "date" (currently string format) so 
+	      //we can use d3.extent() to get min/max
+	      //d3.tsv("world_cup.tsv", draw);
+	      d3.tsv("world_cup_geo.tsv", function(d) {
+	      	//transform data
+	      	d['date'] = format.parse(d['date']);
+	      	//attendance initially stored as string
+	      	// unary plus operator used
+	      	d['attendance'] = +d["attendance"]; 
+	      	return d;
+	      	}, draw);
+           */
+          
+          //Geo
+          //Use D3 to load GeoJSON file
+          d3.json("world_countries.json", draw);
+	  </script>
+      <div class="container">
+          <div class="row">
+              <div id="yearTitle" class="col-lg-12 col-md-12"></div>
+          </div>
+          <div class="row">
+              <div class="col-sm-1 col-md-1">
+              <div class="years_buttons"></div>
+              </div>
+              <div id="map" class="col-lg-11 col-md-11"></div>
+          </div>
+          </div>
+      </div>
+  </section>
+  
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="wow shake" data-wow-delay="0.4s">
+                        <div class="page-scroll marginbot-30">
+                            <a href="#intro" id="totop" class="btn btn-circle">
+                                <i class="fa fa-angle-double-up animated"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--&copy;Copyright 2015. All rights reserved. -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  <!-- Core JavaScript Files -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/wow.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="js/custom.js"></script>
+</body>
+</html>
