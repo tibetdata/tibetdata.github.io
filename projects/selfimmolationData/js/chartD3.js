@@ -10,12 +10,12 @@ function draw(geo_data) {
           .text("World Cup");
 		*/
 		
-        var svg = d3.select("#map")
+        var svg = d3.select("#barGraph")
             .append("svg")
             .attr("width", width + margin)
             .attr("height", height + margin)
             .append('g')
-            .attr('class', 'map');
+            .attr('class', 'barGraph');
         
           
           var years = [];

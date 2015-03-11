@@ -43,7 +43,12 @@ h6 {
 	border-style: none;
 	text-shadow: -1px 0 1px #000;
 }
-
+#container1 {
+    height: 400px; 
+    min-width: 310px; 
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 .axis {
         font-family: arial;
