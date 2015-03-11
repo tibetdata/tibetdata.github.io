@@ -52,20 +52,20 @@
 
        
        $.get('selfimmolationSeparate.csv', function(data) {               
-          alert("data in the file: " + data);
-          var lines = data.split('\n');           
-          $.each(lines, function(lineNo, line) {
-             var items = line.split(',');         
-             c.push(items[0]);                 
-             d.push(parseInt(items[6]));           
-          });
-          options.xAxis.categories = c;
-          options.series = [{
-            data: d
-          }];
-          chart = new Highcharts.Chart(options);
-       });
-    });
+          	//alert("data in the file: " + data);
+			  var lines = data.split('\n');           
+			  $.each(lines, function(lineNo, line) {
+				 var items = line.split(',');         
+				 c.push(items[0]);                 
+				 d.push(parseInt(items[6]));           
+			  });
+			  options.xAxis.categories = c;
+			  options.series = [{
+				data: d
+			  }];
+			  chart = new Highcharts.Chart(options);
+		   });
+		});
         </script>
         
 </head>
