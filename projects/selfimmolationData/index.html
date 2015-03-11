@@ -25,47 +25,47 @@
    
         <script type="text/javascript">
 		    $(document).ready(function() {
-				   var c, d, chart,
-					   options = {
-						 chart: {
-							renderTo: 'chart',
-							type: 'scatter'
-						 },
-						 title: {
-							text: 'Self Immolation in Tibet'
-						 },
-						 xAxis: {
-							title: {
-							   text: 'Date '
-							},
-							categories: []
-						 },
-						 yAxis: {
-							min: 0,
-							tickInterval: 150,
-							title: {
-							   text: 'Age)'
-							}
-						 },
-						 series: []
-					};
+				var chart;
 
-       
-       $.get('selfimmolationSeparate.csv', function(data) {               
-          	//alert("data in the file: " + data);
-			  var lines = data.split('\n');           
-			  $.each(lines, function(lineNo, line) {
-				 var items = line.split(',');         
-				 c.push(items[0]);                 
-				 d.push(parseInt(items[6]));           
-			  });
-			  options.xAxis.categories = c;
-			  options.series = [{
-				data: d
-			  }];
-			  chart = new Highcharts.Chart(options);
-		   });
-		});
+		   $.get('selfimmolationSeparate.csv', function visualize(data) {               
+				//alert("data in the file: " + data);
+			
+			function visualize(csv) {
+		
+				var lines = csv.split('\n'),
+					series = [];
+				
+				$.each(lines, function(i, line){
+				
+					item = line.split(',');
+					
+					if( typeof series[item[3]] !== 'object' ) {
+						series[item[3]] = series[series.length] = {
+							name: item[3],
+							data: []
+						}
+					}
+					
+					series[item[3]].data.push({
+						info: item[1],
+						x: parseDate(item[0]), 
+						y: parseInt(item[6])
+					});
+					
+				});
+				
+				chart = new Highcharts.Chart({
+					chart: {
+						renderTo: 'container',
+						defaultSeriesType: 'scatter'
+					},
+					series: series
+				});
+			
+			}
+			});
+});
+		
         </script>
         
 </head>
