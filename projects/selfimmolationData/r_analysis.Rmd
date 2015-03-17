@@ -1,0 +1,143 @@
+---
+title: "Analysis on self-immolation in Tibet"
+output: html_document
+---
+
+First, we will read the dataset and look at the first row.
+
+```{r}
+si <- read.csv('/Users/jigdelkuyee/workspace/tibetdata/projects/selfimmolationData/si_data_na.csv')
+head(si, 1)
+```
+
+We can also look at both the summary and structure of our dataset using commands `summary` and `str` respectively. This gives us an idea of the variable types we are dealing with. Using `str`, we can see that the protest date is interpreted as a non-date data type. We convert it to date-type in a new column 'dates'. We will use the dates column to help us with our plots.
+
+```{r}
+str(si)
+# Insert new column dates as 'protest_date' was not in date format
+si$dates <- as.Date(si$protest_date, "%Y-%m-%d")
+
+```
+
+Let us take a quick look at a few plots. Part of the exploratory data analysis in relation to plots is we try to observe various variables and see if there are any hidden patterns. 
+
+```{r, echo=FALSE}
+library(ggplot2)
+library(scales)
+# color blind palette with black:
+cbbPalette <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
+# Timeline of self-immolation in Tibet
+ggplot(aes(x=dates, fill=gender), data=si) +
+  geom_bar() +
+  geom_bar(color="black", show_guide=FALSE) +
+  scale_x_date(labels=date_format("%Y-%b"), breaks="3 month") +
+  theme(axis.title.x = element_text(face="bold", size=14),
+        axis.title.y = element_text(face="bold", size=14),
+        axis.text.x = element_text(face="bold", angle=90),
+        axis.text.y = element_text(face="bold"),
+        plot.title = element_text(face="bold", size=16)) +
+  ylab('Count of self-immolation') + guides(fill=guide_legend(title="Gender")) +
+  labs(title = 'Timeline of self-immolation in Tibet')
+
+# Age
+ggplot(aes(x = age, fill=gender), data = subset(si, !is.na(age))) +
+  geom_bar() +
+  geom_bar(color="black", show_guide=FALSE) +
+  scale_x_continuous(limits = c(14, 70), breaks = c(15,18,21,24,27,30,35,40,50,66)) +
+  theme(axis.title.x = element_text(face="bold", size=14),
+        axis.title.y = element_text(face="bold", size=14),
+        axis.text.x = element_text(face="bold", size=13),
+        axis.text.y = element_text(face="bold", size=13),
+        plot.title = element_text(face="bold", size=16)) +
+  xlab('Age') + ylab('Count') + guides(fill=guide_legend(title="Gender")) +
+  labs(title = 'Self-immolation in Tibet: Age breakdown')
+
+# Regional age breakdown
+ggplot(aes(x = age, fill=tibetan_region), data = subset(si, !is.na(age))) +
+  geom_bar() +
+  geom_bar(color="black", show_guide=FALSE) +
+  scale_x_continuous(limits = c(14, 70), breaks = c(15,18,21,24,27,30,35,40,50,66)) +
+  theme(axis.title.x = element_text(face="bold", size=14),
+        axis.title.y = element_text(face="bold", size=14),
+        axis.text.x = element_text(face="bold", size=13),
+        axis.text.y = element_text(face="bold", size=13),
+        plot.title = element_text(face="bold", size=16)) +
+  xlab('Age') + ylab('Count') + guides(fill=guide_legend(title="Region")) +
+  labs(title = 'Self-immolation in Tibet: Age breakdown') +
+  scale_fill_manual(values=cbbPalette)
+  
+# Region - facet wrap
+ggplot(aes(x = age, fill=gender), data = subset(si, !is.na(age))) +
+  geom_bar() +
+  geom_bar(color="black", show_guide=FALSE) +
+  scale_x_continuous(limits = c(14, 70), breaks = seq(15,70, 10)) +
+  theme(axis.title.x = element_text(face="bold", size=14),
+        axis.title.y = element_text(face="bold", size=14),
+        axis.text.y = element_text(face="bold", size=13),
+        plot.title = element_text(face="bold", size=16)) +
+  xlab('Age') + ylab('Count') + guides(fill=guide_legend(title="Region")) +
+  labs(title = 'Age breakdown based on Tibetan regions') +
+  scale_fill_manual(values=cbbPalette) +
+  facet_wrap(~tibetan_region)
+
+#Occupation
+ggplot(aes(x = age, fill=group), data = subset(si, !is.na(age))) +
+  geom_bar() +
+  geom_bar(color="black", show_guide=FALSE) +
+  scale_x_continuous(limits = c(14, 70), breaks = seq(15,70,10)) +
+  theme(axis.title.x = element_text(face="bold", size=14),
+        axis.title.y = element_text(face="bold", size=14),
+        axis.text.x = element_text(face="bold", size=13),
+        axis.text.y = element_text(face="bold", size=13),
+        plot.title = element_text(face="bold", size=16)) +
+  xlab('Age') + ylab('Count') + guides(fill=guide_legend(title="Occupation")) +
+  labs(title = 'Self-immolation in Tibet: Occupation breakdown') +
+  scale_fill_brewer(palette="Set2")
+  
+# Status 
+ggplot(aes(x = age, fill=alive), data = subset(si, !is.na(age))) +
+  geom_bar() +
+  geom_bar(color="black", show_guide=FALSE) +
+  scale_x_continuous(limits = c(14, 70), breaks = seq(15,70,10)) +
+  theme(axis.title.x = element_text(face="bold", size=14),
+        axis.title.y = element_text(face="bold", size=14),
+        axis.text.y = element_text(face="bold", size=13),
+        plot.title = element_text(face="bold", size=16)) +
+  xlab('Age') + ylab('Count') + guides(fill=guide_legend(title="Alive ?")) +
+  labs(title = 'Self-immolation in Tibet: Current Status') +
+  scale_fill_hue(l=45)
+
+# Status Timeline
+ggplot(aes(x=dates, fill=alive), data=si) +
+  geom_bar() +
+  geom_bar(color="black", show_guide=FALSE) +
+  scale_x_date(labels=date_format("%Y-%b"), breaks="3 month") +
+  theme(axis.title.x = element_text(face="bold", size=14),
+        axis.title.y = element_text(face="bold", size=14),
+        axis.text.x = element_text(face="bold", angle=60),
+        axis.text.y = element_text(face="bold"),
+        plot.title = element_text(face="bold", size=16)) +
+  xlab('Dates') + ylab('Count of self-immolation') + guides(fill=guide_legend(title="Alive ?")) +
+  labs(title = 'Timeline of self-immolation in Tibet: Current Status') +
+  scale_fill_manual(values=cbbPalette) +
+  scale_fill_hue(l=45)
+
+# To use for fills, add
+# scale_fill_manual(values=cbbPalette)
+
+# To use for line and point colors, add
+#  scale_colour_manual(values=cbbPalette)
+```
+
+### Plotting map of Tibet
+```{r}
+library(knitr)
+install.packages('maptools')
+library(maptools)
+TibetMap <- readShapePoly("/Users/jigdelkuyee/workspace/tibetdata/projects/selfimmolationData/map/Oct8_Tibetan.shp")
+
+```
+
+
+
