@@ -3,7 +3,7 @@ a,.tp-caption a.btn:hover {
 	color: #67b0d1;
 }
 .top-nav-collapse {
-    background: #101553; /*change 67b0d1; */
+    background: #800000; /*change 67b0d1; #101553; */
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
@@ -20,7 +20,7 @@ a,.tp-caption a.btn:hover {
 }
 
 .bg-skin {
-    background: #101553; /* change #67b0d1; */
+    background: #800000; /* change #67b0d1; #101553;*/
 }
 
 form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
@@ -28,7 +28,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 footer {
-    background-color: #101553; /* change 67b0d1;*/
+    background-color: #800000; /* change 67b0d1; #101553;*/
 }
 
 .btn-skin {

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Tibet Data - Self Immolation Graph </title>
+  
+
+    <!-- links to d3 and nv d3 files -->
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/nv.d3.min.js"></script>
+    <script src="js/stream_layers.js"></script>
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/nv.d3.min.css" rel="stylesheet">
+
+    <!-- Customized D3 charts 
+    <script src="js/chartD3.js"></script>
+    -->
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" />
+    
+    <!-- Squad theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="color/default.css" rel="stylesheet">
+    <style>
+        text {
+            font: 12px sans-serif;
+        }
+        svg {
+            display: block;
+        }
+        html, body, #test1, svg {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+<script>
+
+    //var test_data = stream_layers(3,128,.1).map(function(data, i) {
+    var test_data = stream_layers(3,128,.1).map(function(data, i) {
+        return {
+            key: 'Stream' + i,
+            values: data
+        };
+    });
+
+    nv.addGraph({
+        generate: function() {
+            var width = nv.utils.windowSize().width,
+                height = nv.utils.windowSize().height;
+
+            var chart = nv.models.multiBarChart()
+                .width(width)
+                .height(height)
+                .stacked(true)
+                ;
+
+            chart.dispatch.on('renderEnd', function(){
+                console.log('Render Complete');
+            });
+
+            var svg = d3.select('#test1 svg').datum(test_data);
+            console.log('calling chart');
+            svg.transition().duration(0).call(chart);
+
+            return chart;
+        },
+        callback: function(graph) {
+            nv.utils.windowResize(function() {
+                var width = nv.utils.windowSize().width;
+                var height = nv.utils.windowSize().height;
+                graph.width(width).height(height);
+
+                d3.select('#test1 svg')
+                    .attr('width', width)
+                    .attr('height', height)
+                    .transition().duration(0)
+                    .call(graph);
+
+            });
+        }
+    });
+
+</script>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="load"></div>
+  </div>
+
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+	  <i class="fa fa-bars"></i>
+	</button>
+	<a class="navbar-brand" href="http://tibetdata.github.io/index.html">
+	  <h1>Tibet Data</h1>
+	</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+	<ul class="nav navbar-nav">
+	  <li class="active"><a href="http://tibetdata.github.io/index.html">Home</a></li>
+	  <li><a href="http://tibetdata.github.io/index.html#about">Projects</a></li>
+	  <!--
+	      <li><a href="#service">Service</a></li>
+		<li><a href="#contact">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Example menu</a></li>
+            <li><a href="#">Example menu</a></li>
+            <li><a href="#">Example menu</a></li>
+          </ul>
+        </li>
+	-->
+	</ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <!-- Section: intro -->
+  
+  <section id="intro" class="intro">
+    <div class="slogan">
+      <h2></h2>
+    </div>
+    <div class="container"></div>
+  </section>
+
+  <section id="about" class="home-section text-center">
+    <script type="text/javascript">   
+          //Geo
+          //Use D3 to load GeoJSON file
+          //d3.json("world_countries.json", draw);
+	  </script>
+      <div class="container">
+          <div class="row">
+              <div id="yearTitle" class="col-lg-12 col-md-12"></div>
+          </div>
+          <div class="row">
+              <div id = "test1" class="col-lg-12 col-md-12">
+                <svg></svg>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="wow shake" data-wow-delay="0.4s">
+                        <div class="page-scroll marginbot-30">
+                            <a href="#intro" id="totop" class="btn btn-circle">
+                                <i class="fa fa-angle-double-up animated"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--&copy;Copyright 2015. All rights reserved. -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+  <!-- Core JavaScript Files -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/wow.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="js/custom.js"></script>
+</body>
+</html>

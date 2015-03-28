@@ -61,10 +61,6 @@ path {
         stroke-width: 2px;
 }
 
-.tick {
-        fill: none;
-        stroke: black;
-}
 
 circle {
         fill: orange;
@@ -106,7 +102,7 @@ p.lead {
 }
 
 a {
-    color: #101553; /*#28c3ab; */
+    color: #28c3ab; /*#101553; */
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -372,8 +368,8 @@ hr {
     height:80%;
     position:relative;
 	
-	background: url(../img/tibet-night-sky.png) no-repeat top center;
-	/*Source: http://www.10wallpaper.com/wallpaper/1680x1050/1209/The_night_sky_in_Tibet-Natural_Scenery_Wallpaper_1680x1050.jpg*/
+	background: url(../img/selfimmolationtibet.png) no-repeat top center;
+	/*Source:http://www.dailymaverick.co.za/article/2013-02-08-china-intensifies-crackdown-on-tibetan-burnings-detains-70/ */
 }
 
 #intro.intro {
