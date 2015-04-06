@@ -1,235 +1,124 @@
-function draw(geo_data) {
-        "use strict";
-        var margin = 5,
-        	container_width= (1170 * .91),
-            width = container_width - margin,
-            height = 600 - margin;
-        /*  
-        d3.select("body")
-          .append("h2")
-          .text("World Cup");
-		*/
-		
-        var svg = d3.select("#barGraph")
-            .append("svg")
-            .attr("width", width + margin)
-            .attr("height", height + margin)
-            .append('g')
-            .attr('class', 'barGraph');
-        
-          
-          var years = [];
-          
-          for (var i =1930; i <2015; i +=4) {
-              if (i !== 1942 && i !== 1946) {
-                  years.push(i);
-              };
-          }
-        
-        var projection = d3.geo.mercator()
-                               .scale(150)
-                               .translate( [width / 2.3, height / 1.4]);
 
-        var path = d3.geo.path().projection(projection);
+var margin = {top: 30, right: 10, bottom: 10, left: 10},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
 
-        var map = svg.selectAll('path')
-                     .data(geo_data.features)
-                     .enter()
-                     .append('path')
-                     .attr('d', path)
-                     .style('fill', 'green')
-                     .style('stroke', 'black')
-                     .style('stroke-width', 0.5)
-                     .attr('opacity', 0.5);
+var x = d3.scale.ordinal().rangePoints([0, width], 1),
+    y = {},
+    dragging = {};
 
-        
-          function plot_points(data) {
-              
-              function agg_year(leaves) {
-                  var total = d3.sum(leaves, function(d) {
-                                     return d['attendance'];
-                                     });
-                  
-                  var coords = leaves.map(function(d) {
-                                          return projection([+d.long, +d.lat]);
-                                          });
-                  
-                  var center_x = d3.mean(coords, function(d) {
-                                         return d[0];
-                                         });
-                  
-                  var center_y = d3.mean(coords, function(d) {
-                                         return d[1];
-                                         });
-                  
-                  var teams = d3.set();
-                  
-                  leaves.forEach(function(d) {
-                                 teams.add(d['team1']);
-                                 teams.add(d['team2']);
-                                 });
-                  
-                  return {
-                      'attendance' : total,
-                      'x' : center_x,
-                      'y' : center_y,
-                      'teams' : teams.values()
-                  };
-              }
-              
-              //draw circles logic
-              var nested = d3.nest()
-                            .key(function(d) {
-                                    return d['date'].getUTCFullYear();
-                                    })
-                            .rollup(agg_year)
-                            .entries(data);
-    
-              //circles need to be scaled with caution
-              var attendance_max = d3.max(nested, function(d) {
-                                          return d.values['attendance'];
-                                          });
-              var radius = d3.scale.sqrt()
-                                .domain([0, attendance_max])
-                                .range([0, 15]);
-              
-              
-              function key_func(d) {
-                  return d['key'];
-              }
-              
-              svg.append('g')
-                .attr("class", "bubble")
-                .selectAll("circle")
-                .data(nested.sort(function(a, b) {
-                            return b.values['attendance'] - a.values['attendance'];
-                                  }), key_func)
-                .enter()
-                .append("circle")
-                .attr('cx', function(d) { return d.values['x']; })
-                .attr('cy', function(d) { return d.values['y']; })
-                .attr('r', function(d) {
-                    //return d.values['attendance'];
-                    return radius(d.values['attendance']);
-                      })
-               
-              /* defined in css
-                //aesthetics
-                .attr('fill', 'rgb(247, 148, 32)')
-                .attr('stroke', 'black')
-                .attr('stroke-width', 0.7)
-                .attr('opacity', 0.7);
-               */
-              
-              function update(year) {
-                  var filtered = nested.filter(function(d) {
-                        return new Date(d['key']).getUTCFullYear() === year;
-                    });
-                  
-                  d3.select('#yearTitle')
-                  .text("World Cup " + year);
-                  
-                  var circles = svg.selectAll('circle')
-                    .data(filtered, key_func);
-              
-                  //removing any circle except for 'update'
-                  circles.exit().remove();
-                
-                  //append any new circle
-                  circles.enter()
-                    .append("circle")
-                    .transition()
-                    .duration(500)
-                    .attr('cx', function(d) { return d.values['x']; })
-                    .attr('cy', function(d) { return d.values['y']; })
-                    .attr('r', function(d) { 
-                  		return radius(d.values['attendance']);
-                  		});
-                  //all aesthetics value stored in css
-                
-                  var countries = filtered[0].values['teams'];
-                  
-                  function update_countries(d) {
-                      if(countries.indexOf(d.properties.name) !== -1) {
-                          return 'green';
-                      } else {
-                          return "lightBlue";
-                      }
-                  }
-                  
-                svg.selectAll('path')
-                  .transition()
-                  .duration(500)
-                  .style('fill', update_countries)
-                  .style('stroke', update_countries);
-              };
-			  
-              var year_idx = 0;
-              
-              var year_interval = setInterval(function() {
-                    update(years[year_idx]);
-                                              
-                    year_idx++;
-                        
-                    if(year_idx >= years.length) {
-                            clearInterval(year_interval);
-                            
-                          /*
-                           * .append("div") -> We've created/appended this div element to contain
-                           * all my buttons
-                           * .selectAll("div") -> simply selecting all the divs in that parent div
-                           * .data(years) -> binding data corresponding to all the years, making an
-                           * enter selection which will grab me all the elements that are currently
-                           * not yet on the page, which in this case is going to be all of them since
-                           * we are near the top of our file, and
-                           * .append("div") -> append div that has text equal to data itself
-                           *
-                           *
-                           */
-                          
-                          //user-driven buttons - pick year
-                          var buttons = d3.select(".years_buttons")
-                                      //.append("div")
-                                      //.transition
-                                      //.duration(10000)
-                                      //.attr("class", "years_buttons")
-                                      .selectAll("div") //select divs
-                                      .data(years)      //bind data
-                                      .enter()          //enter selection
-                                      .append("div")    //append divs
-                                      .text(function(d) {
-                                            return d;
-                                    });
-                            //set text labels
-                            //click - event name
-                          buttons.on("click", function(d) {
-                                     //event handler
-                                d3.select(".years_buttons")
-                                 .selectAll("div")
-                                 .transition()
-                                 .duration(100)
-                                 .style("color", "black")
-                                 .style("background", "lightBlue");
-                                 
-                                d3.select(this)
-                                 .transition()
-                                 .duration(300)
-                                 .style("background", "green")
-                                 .style("color", "white");
-                        
-                                //call update() to update map
-                                update(d)
-                                     
-                                     })
-                    }
-                }, 1000);                            
-              }
-          
-          var format = d3.time.format("%d-%m-%Y (%H:%M h)");
-          
-          d3.tsv("world_cup_geo.tsv", function(d) {
-                 d['attendance'] = +d['attendance'];
-                 d['date'] = format.parse(d['date']);
-                 return d;
-                 }, plot_points);
-};
+var line = d3.svg.line(),
+    axis = d3.svg.axis().orient("left"),
+    background,
+    foreground;
+
+var svg = d3.select("#map").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+d3.csv("data_min.csv", function(error, cars) {
+
+  // Extract the list of dimensions and create a scale for each.
+  x.domain(dimensions = d3.keys(cars[0]).filter(function(d) {
+    return d != "name" && (y[d] = d3.scale.linear()
+        .domain(d3.extent(cars, function(p) { return +p[d]; }))
+        .range([height, 0]));
+  }));
+
+  // Add grey background lines for context.
+  background = svg.append("g")
+      .attr("class", "background")
+    .selectAll("path")
+      .data(cars)
+    .enter().append("path")
+      .attr("d", path);
+
+  // Add blue foreground lines for focus.
+  foreground = svg.append("g")
+      .attr("class", "foreground")
+    .selectAll("path")
+      .data(cars)
+    .enter().append("path")
+      .attr("d", path);
+
+  // Add a group element for each dimension.
+  var g = svg.selectAll(".dimension")
+      .data(dimensions)
+    .enter().append("g")
+      .attr("class", "dimension")
+      .attr("transform", function(d) { return "translate(" + x(d) + ")"; })
+      .call(d3.behavior.drag()
+        .origin(function(d) { return {x: x(d)}; })
+        .on("dragstart", function(d) {
+          dragging[d] = x(d);
+          background.attr("visibility", "hidden");
+        })
+        .on("drag", function(d) {
+          dragging[d] = Math.min(width, Math.max(0, d3.event.x));
+          foreground.attr("d", path);
+          dimensions.sort(function(a, b) { return position(a) - position(b); });
+          x.domain(dimensions);
+          g.attr("transform", function(d) { return "translate(" + position(d) + ")"; })
+        })
+        .on("dragend", function(d) {
+          delete dragging[d];
+          transition(d3.select(this)).attr("transform", "translate(" + x(d) + ")");
+          transition(foreground).attr("d", path);
+          background
+              .attr("d", path)
+            .transition()
+              .delay(500)
+              .duration(0)
+              .attr("visibility", null);
+        }));
+
+  // Add an axis and title.
+  g.append("g")
+      .attr("class", "axis")
+      .each(function(d) { d3.select(this).call(axis.scale(y[d])); })
+    .append("text")
+      .style("text-anchor", "middle")
+      .attr("y", -9)
+      .text(function(d) { return d; });
+
+  // Add and store a brush for each axis.
+  g.append("g")
+      .attr("class", "brush")
+      .each(function(d) {
+        d3.select(this).call(y[d].brush = d3.svg.brush().y(y[d]).on("brushstart", brushstart).on("brush", brush));
+      })
+    .selectAll("rect")
+      .attr("x", -8)
+      .attr("width", 16);
+});
+
+function position(d) {
+  var v = dragging[d];
+  return v == null ? x(d) : v;
+}
+
+function transition(g) {
+  return g.transition().duration(500);
+}
+
+// Returns the path for a given data point.
+function path(d) {
+  return line(dimensions.map(function(p) { return [position(p), y[p](d[p])]; }));
+}
+
+function brushstart() {
+  d3.event.sourceEvent.stopPropagation();
+}
+
+// Handles a brush event, toggling the display of foreground lines.
+function brush() {
+  var actives = dimensions.filter(function(p) { return !y[p].brush.empty(); }),
+      extents = actives.map(function(p) { return y[p].brush.extent(); });
+  foreground.style("display", function(d) {
+    return actives.every(function(p, i) {
+      return extents[i][0] <= d[p] && d[p] <= extents[i][1];
+    }) ? null : "none";
+  });
+}
