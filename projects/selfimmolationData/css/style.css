@@ -28,21 +28,7 @@ h6 {
     font-weight: 700;
     letter-spacing: 1px;
 }
-#yearTitle {
-	color: darkBlue;
-	text-shadow: none;
-	font-size: 40px;
-	line-height: 60px;
-	font-weight: 400;
-	font-family: Montserrat, sans-serif;
-	background-color: rgba(0, 0, 0, 0);
-	text-decoration: none;
-	text-transform: uppercase;
-	border-width: 0px;
-	border-color: #000;
-	border-style: none;
-	text-shadow: -1px 0 1px #000;
-}
+
 #container1 {
     height: 400px; 
     min-width: 310px; 
@@ -52,14 +38,21 @@ h6 {
 
 #graphs {
     max-height: 420px;
-    min-height: 150px;
+    min-height: 100px;
     max-width: 600px;
-    min-width: 300px;
+    min-width: 150px;
     display: block;
     margin: 0 auto;
 }
 
-
+intro ul {
+  display: inline-block;
+}
+ul.heading_list {
+  position: relative;
+  font-size: 20px;
+  color: #000;
+}
 
 svg {
   font: 10px sans-serif;
@@ -97,7 +90,7 @@ svg {
 
 
 p {
-    margin: 0 0 20px;
+    margin: 0 0 5px;
     font-size: 16px;
     line-height: 1.6em;
 }
@@ -145,7 +138,7 @@ a:focus {
 }
 
 .navbar-brand h1{
-	color: #fff;
+	color: #E4941B; /*#fff; */
   font-size: 20px;
   line-height: 40px;
 }
@@ -155,18 +148,23 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: #E4941B; /*rgba(255,255,255,.4);*/
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
     background-color: rgba(0,0,0,0);
 }
-
+.navbar-custom.top-nav-collapse .nav.navbar-brand a h1{
+      -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  color: #E4941B;
+}
 
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444;
+    color: #B60B0B; /* #444; menu colors */
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -175,7 +173,7 @@ a:focus {
 	    -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	color: #fff;
+	color: #E4941B;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu {
@@ -376,10 +374,10 @@ hr {
 
 .intro {
     width:100%;
-    height:80%;
+    height:10%;
     position:relative;
 	
-	background: url(../img/selfimmolationtibet.png) no-repeat top center;
+	/* background: url(../img/selfimmolationtibet.png) no-repeat top center; */
 	/*Source:http://www.dailymaverick.co.za/article/2013-02-08-china-intensifies-crackdown-on-tibetan-burnings-detains-70/ */
 }
 
@@ -759,7 +757,7 @@ Parallax
     }
 	
     .intro {
-        height: 70%; /*changed initial 100% */
+        height: 20%; /*changed initial 100% */
         padding: 0;
     }
 

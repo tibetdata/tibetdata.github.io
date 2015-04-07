@@ -11,9 +11,9 @@
     
     <script src="js/d3.v3.min.js"></script>
 
-    <!-- Customized D3 charts -->
+    <!-- Customized D3 charts 
     <script src="js/chartD3.js"></script>
-    
+    -->
     <link rel="stylesheet" href="css/main.css">
 
     <!-- Bootstrap Core CSS -->
@@ -36,13 +36,16 @@
   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header page-scroll">
+	<!--
 	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
 	  <i class="fa fa-bars"></i>
 	</button>
-	<a class="navbar-brand" href="http://jigdel.github.io/index.html">
-	  <h1>Tibet Data</h1>
-	</a>
-      </div>
+	-->
+		<a class="navbar-brand" href="http://tibetdata.github.io/index.html">
+		  <h1>TIBET DATA</h1>
+		</a>
+	</div>
+      
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -60,13 +63,9 @@
   
   <section id="intro" class="intro">
     <div class="slogan">
-      <h2><font color="yellow">Self-immolation in Tibet </font> </h2>
-        <h3><font color="yellow">Over 137 Tibetans in Tibet have self-immolated!</font>
-        </h3>
-        <p>
-        <h3><font color="yellow">24 of them were teenagers (born after 1996).</font>
-        </h3>
-    </div>
+      <h3>Self-immolations in Tibet
+      </h3>
+	</div>
     <div class="container">
       <div class="row"><!--
           <div class="col-lg-12 col-lg-offset-2"> -->
@@ -75,50 +74,33 @@
       </div>
     </div>
   </section>
-    
-  <section id="about1" class="home-section text-center">
-      <script type="text/javascript">
-          /*
-           Use D3 parallel coordinates here maybe?
-           */
-          /*
-          Notes:
-          http://newleftreview.org/II/15/tsering-shakya-blood-in-the-snows
-
-          https://www.nytimes.com/books/first/s/shakya-dragon.html
-
-          http://muse.jhu.edu/login?auth=0&type=summary&url=/journals/manoa/v012/12.2stewart02.pdf
-          
-          d3.tsv("world_cup.tsv", draw);
-          */
-
-          </script>
-  </section>
   <section id="about" class="home-section text-center">
       <div class="container">
           <div class="row">
             <div class="col-sm-11 col-md-11">
             <h3> Introduction </h3>
-            The first Tibetan self-immolation took place in New Delhi, India. Thupten Ngodup, a former monk, was on a hunger strike demanding UN intervention in Tibet. As the days turned into weeks and with no responses, Thupten Ngodup doused himself with gasoline and set himself on fire. He was 60 years old.
+            The first Tibetan self-immolation took place in New Delhi, India. Thupten Ngodup, a former monk, was on a hunger strike demanding UN intervention in Tibet. As the days turned into weeks and with no responses, Thupten Ngodup doused himself with gasoline and set himself on fire to die for the cause of Tibetan indepence. He was 60 years old. I highly encourage reading Jamyang Norbu's piece on <a href="http://www.jamyangnorbu.com/blog/2008/05/12/remembering-thupten-ngodup/" target="_blank">"Remembering Thupten Ngodup"</a>
             <p>
            	<img id="graphs" src="http://www.jamyangnorbu.com/blog/wp-content/uploads/2008/05/thupten_ngodup_400.jpg">
-            <p class="graph_caption"><b>Pawo (martyr) Thupten Ngodup</b> [1938-1998] </p>
+            <p class="graph_caption"><b>Pawo (patriot) Thupten Ngodup</b> [1938-1998] </p>
+            In February 27, 2009, Lobsang Tashi (Tapey was his lay name), a 20 year old monk from Kirti Monastery became the first Tibetan to self-immolate in Tibet. I highly recommend reading this post by Woesor at High Peaks Pure Earth on <a href="http://highpeakspureearth.com/2012/remembering-the-first-person-who-self-immolated-inside-tibet-tapey-by-woeser/", target="_blank">"Remembering the first person who self-immolated inside Tibet."</a> Since Tapey's self-immolation, there has been 137 self-immolations inside Tibet. 
+            <p>
+           	<img id="graphs" src="http://highpeakspureearth.com/wp-content/uploads/2012/03/2012-03-08-Tapey.jpg">
+            <p class="graph_caption">[<a href="http://highpeakspureearth.com/wp-content/uploads/2012/03/2012-03-08-Tapey.jpg">Source</a>]</p>
             </div>
           </div>
           <div class="row">
             <div class="col-sm-11 col-md-11">
             <h3> Timeline </h3>
-            Discuss about Timeline section
+            The chart below shows the timeline of the self-immolations. The majority of the self-immolations took place in 2012. In fact, there were 87 self-immolations that year, followed by 26 in 2013 and 11 in 2014. There was one this year on March 5 in Ngaba. Her name was Norchuk and she was 40 years old [<a href="http://www.savetibet.org/self-immolation-and-protest-in-tibet-amid-in">ICT</a>].
+            <p><img id="graphs" src="./img/graphs/timeline.png">
             <p>
-            <img id="graphs" src="./img/graphs/timeline.png">
-            <p>
-            Analysis begins here.
             </div>
           </div>
           <div class="row">
             <div class="col-sm-11 col-md-11">
-            <h3> Gender and Age breakdown </h3>
-			Discuss about gender and age.
+            <h3> Gender and Age breakdown</h3>
+			Next, let's look at the 
 			<img id="graphs" src="./img/graphs/regional_gender_2.png">
 			Gender breakdown.
             <img id="graphs" src="./img/graphs/gender.png">
@@ -133,12 +115,16 @@
 
             <p>
             <img id="graphs" src="./img/graphs/three_regions.png">
-            <br><p class="graph_caption"> <b>Tibet's three main regions </b> along with present day Chinese regions.
+            <br><p class="graph_caption"> <b>Tibet's three main regions </b> along with present day Chinese regions
             [<a href="http://newleftreview.org/static/assets/images/2490201large.gif">Source</a>]
             </p>
             Analysis continues here
             <img id="graphs" src="./img/graphs/three_main_regions.png">
             <img id="graphs" src="./img/graphs/places_tibetan_names.png">
+            ICT's map 
+            <img id="graphs" src="http://www.savetibet.org/wp-content/uploads/2014/04/Tibet-map-immolations-040114-mid.jpg">
+            <br><p class="graph_caption"> Map showing all the places and number of self-immolations
+            [<a href="http://www.savetibet.org/wp-content/uploads/2014/04/Tibet-map-immolations-040114-mid.jpg">Source</a>]
             <img id="graphs" src="./img/graphs/places_chinese_names.png">
             <img id="graphs" src="./img/graphs/gender_age_facet.png">
             </div>
