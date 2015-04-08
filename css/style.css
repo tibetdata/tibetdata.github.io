@@ -320,8 +320,10 @@ hr {
 
 .intro .slogan {
 	text-align: center;
+  padding: 0 20% 20% 0;
 
 }
+
 
 .intro .page-scroll {
 	text-align: center;
