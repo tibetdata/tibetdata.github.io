@@ -1,0 +1,2174 @@
+{
+  "collection1": [
+    {
+      "country": "Afghanistan",
+      "university": {
+        "text": "Kabul University",
+        "href": "http://english.hanban.org/confuciousinstitutes/node_10653.htm"
+      }
+    },
+    {
+      "country": "Albania",
+      "university": {
+        "text": "University of Tirana",
+        "href": "http://english.hanban.org/article/2014-01/03/content_520538.htm"
+      }
+    },
+    {
+      "country": "Argentina",
+      "university": [
+        {
+          "text": "National University of La Plata",
+          "href": "http://www.unlp.edu.ar/articulo/2011/2/22/instituto_confucio_cursos_2011"
+        },
+        {
+          "text": "University of Buenos Aires",
+          "href": "http://www.institutoconfucio.edu.ar/"
+        }
+      ]
+    },
+    {
+      "country": "Armenia",
+      "university": {
+        "text": "Yerevan State Linguistic University After V.Bryusov",
+        "href": "http://www.brusov.am/en/structure/centers/confucius-institute"
+      }
+    },
+    {
+      "country": "Australia",
+      "university": [
+        {
+          "text": "Bangor University",
+          "href": "http://www.bangor.ac.uk/confucius-institute/"
+        },
+        {
+          "text": "Charles Darwin University",
+          "href": "http://www.cdu.edu.au/confucius-institute"
+        },
+        {
+          "text": "Confucius Institute in Adelaide",
+          "href": "http://confuciusinstitute.unl.edu/Confucius%20Institute%20in%20Adelaide"
+        },
+        {
+          "text": "Queensland University of Technology",
+          "href": "http://www.confuciusinstitute.qut.edu.au/"
+        },
+        {
+          "text": "Royal Melbourne Institute of Technology",
+          "href": "http://www.rmit.edu.au/healthsciences/cmci"
+        },
+        {
+          "text": "State of New South Wales",
+          "href": "http://www.curriculumsupport.education.nsw.gov.au/secondary/languages/languages/chinese/"
+        },
+        {
+          "text": "University of Melbourne",
+          "href": "http://www.confuciusinstitute.unimelb.edu.au/"
+        },
+        {
+          "text": "University of New South Wales",
+          "href": "http://confuciusinstitute.unsw.edu.au/"
+        },
+        {
+          "text": "University of Newcastle",
+          "href": "https://www.newcastle.edu.au/community-and-alumni/arts-and-culture/confucius-institute"
+        },
+        {
+          "text": "University of Queensland",
+          "href": "http://www.uq.edu.au/confucius/"
+        },
+        {
+          "text": "University of Sydney",
+          "href": "http://sydney.edu.au/confucius_institute/"
+        },
+        {
+          "text": "University of Western Australia",
+          "href": "http://www.confuciusinstitute.uwa.edu.au/"
+        }
+      ]
+    },
+    {
+      "country": "Austria",
+      "university": [
+        {
+          "text": "University of Graz",
+          "href": "https://konfuzius-institut.uni-graz.at/en/"
+        },
+        {
+          "text": "University of Vienna",
+          "href": "http://konfuzius-institut-uniwien.at.chinesecio.com/"
+        }
+      ]
+    },
+    {
+      "country": "Azerbaijan",
+      "university": {
+        "text": "Baku State University",
+        "href": "http://bsu.edu.az/en/news/confucius_institute_has_been_opened_at_baku_state_university_"
+      }
+    },
+    {
+      "country": "Bahamas",
+      "university": {
+        "text": "The College of the Bahamas",
+        "href": "http://www.cob.edu.bs/Academics/schools/ilci/"
+      }
+    },
+    {
+      "country": "Bahrain",
+      "university": {
+        "text": "University of Bahrain",
+        "href": "http://english.hanban.org/article/2014-06/17/content_541527.htm"
+      }
+    },
+    {
+      "country": "Bangladesh",
+      "university": {
+        "text": "North South University",
+        "href": "http://www.northsouth.edu/academic/ic/confucius-institute.html"
+      }
+    },
+    {
+      "country": "Belarus",
+      "university": [
+        {
+          "text": "Belarusian State University",
+          "href": "http://english.hanban.org/node_8833.htm"
+        },
+        {
+          "text": "Minsk State Linguistic University",
+          "href": "http://english.hanban.org/node_42701.htm"
+        },
+        {
+          "text": "Science and Technology Confucius Institute at Belarusian National Technical University",
+          "href": "http://en.bntu.by/news/new-confucius-institute-science-and-technology-opened-bntu"
+        }
+      ]
+    },
+    {
+      "country": "Belgium",
+      "university": [
+        {
+          "text": "Confucius Institute in Brussels",
+          "href": "http://english.hanban.org/node_8955.htm"
+        },
+        {
+          "text": "Confucius Institute at GROUP T",
+          "href": "http://www.groupt.be/www/over_groep_t/confucius-institute-leuve/"
+        },
+        {
+          "text": "Confucius Institute in Liege",
+          "href": "http://www.confucius.ulg.ac.be/jcms/c_5030/en/accueil"
+        },
+        {
+          "text": "University College West Flanders",
+          "href": "http://english.hanban.org/node_42687.htm"
+        }
+      ]
+    },
+    {
+      "country": "Benin",
+      "university": {
+        "text": "University of Abomey-Calavi",
+        "href": "http://benin.uac.ci.bj.chinesecio.com/"
+      }
+    },
+    {
+      "country": "Bolivia",
+      "university": {
+        "text": "University of San Simon",
+        "href": "http://icumss.bol.chinesecio.com/"
+      }
+    },
+    {
+      "country": "Botswana",
+      "university": {
+        "text": "University of Botswana",
+        "href": "http://icumss.bol.chinesecio.com/"
+      }
+    },
+    {
+      "country": "Brazil",
+      "university": [
+        {
+          "text": "Business Confucius Institute at FAAP",
+          "href": "http://faap.br/hotsites/arte_chinesa/ingles/read.asp"
+        },
+        {
+          "text": "Confucius Institute at Universidade Federal de Minas Gerais",
+          "href": "http://english.hanban.org/node_42063.htm"
+        },
+        {
+          "text": "Federal University of Rio Grand Do Sul",
+          "href": "http://icufrgs.br.chinesecio.com/"
+        },
+        {
+          "text": "Pontifical Catholic University of Rio de Janeiro",
+          "href": "http://icpuc-rio.br.chinesecio.com/"
+        },
+        {
+          "text": "University of Brasilia",
+          "href": "http://english.hanban.org/node_8712.htm"
+        },
+        {
+          "text": "University of Campinas",
+          "href": "http://english.hanban.org/node_43028.htm"
+        },
+        {
+          "text": "University of Estadual Paulista",
+          "href": "http://www.institutoconfucio.unesp.br/"
+        },
+        {
+          "text": "University of Pernambuco",
+          "href": "http://english.hanban.org/node_42064.htm"
+        }
+      ]
+    },
+    {
+      "country": "Bulgaria",
+      "university": [
+        {
+          "text": "Confucius Institute in Sofia",
+          "href": "http://english.hanban.org/node_8942.htm"
+        },
+        {
+          "text": "Confucius Institute at St. Cyril and St. Methodius University of Veliko Turnovo",
+          "href": "http://english.hanban.org/node_42704.htm"
+        }
+      ]
+    },
+    {
+      "country": "Burundi",
+      "university": {
+        "text": "University of Burundi",
+        "href": "http://english.hanban.org/node_42043.htm"
+      }
+    },
+    {
+      "country": "Cambodia",
+      "university": {
+        "text": "Confucius Institute of Royal Academy of Cambodia",
+        "href": "http://cirac.kh.chinesecio.com/"
+      }
+    },
+    {
+      "country": "Cameroon",
+      "university": {
+        "text": "University of Yaounde II",
+        "href": "http://english.hanban.org/node_10903.htm"
+      }
+    },
+    {
+      "country": "Canada",
+      "university": [
+        {
+          "text": "Brock University",
+          "href": "http://www.brocku.ca/confucius-institute"
+        },
+        {
+          "text": "Carleton University",
+          "href": "http://carleton.ca/confucius-institute/"
+        },
+        {
+          "text": "Confucius Institute at BCIT",
+          "href": "http://www.confuciusbcit.com/en/index.asp"
+        },
+        {
+          "text": "Confucius Institute in Coquitlam",
+          "href": "http://www.internationaled.com/confucius/"
+        },
+        {
+          "text": "Confucius Institute in Edmonton",
+          "href": "http://confuciusedmonton.ca/"
+        },
+        {
+          "text": "Confucius Institute in New Brunswick",
+          "href": "http://www.cinb.ca/"
+        },
+        {
+          "text": "Confucius Institute in Quebec",
+          "href": "http://www.confuciusinstitute.qc.ca/"
+        },
+        {
+          "text": "Confucius Institute of Toronto",
+          "href": "http://confuciusinstitutetoronto.weebly.com/"
+        },
+        {
+          "text": "Saint Mary's University",
+          "href": "http://www.smu.ca/research/confucius-institute.html"
+        },
+        {
+          "text": "Seneca College",
+          "href": "http://www.senecacollege.ca/confucius-institute/"
+        },
+        {
+          "text": "University of Regina",
+          "href": "http://www.uregina.ca/international/confucius/"
+        },
+        {
+          "text": "University of Saskatchewan",
+          "href": "http://confuciusinstitute.usask.ca/CONFUCIUSINSTITUTE/Home.html"
+        },
+        {
+          "text": "University of Waterloo",
+          "href": "https://uwaterloo.ca/renison/confucius-institute"
+        }
+      ]
+    },
+    {
+      "country": "Chile",
+      "university": [
+        {
+          "text": "Confucius Institute at Catholic University",
+          "href": "http://www7.uc.cl/confuciouc/html/portada.html"
+        },
+        {
+          "text": "University of Saint Thomas",
+          "href": "http://icust.chl.chinesecio.com/"
+        }
+      ]
+    },
+    {
+      "country": "Colombia",
+      "university": [
+        {
+          "text": "Confucius Institute in Medellin",
+          "href": "http://icm.co.chinesecio.com/"
+        },
+        {
+          "text": "Jorge Tadeo Lozano University",
+          "href": "http://english.hanban.org/node_42067.htm"
+        },
+        {
+          "text": "University of Los Andes",
+          "href": "http://confucio-uniandes-co.co.chinesecio.com/"
+        }
+      ]
+    },
+    {
+      "country": "Congo",
+      "university": {
+        "text": "University of Marien NGOUABI",
+        "href": "http://english.hanban.org/node_42045.htm"
+      }
+    },
+    {
+      "country": "Costa Rica",
+      "university": {
+        "text": "University of Costa Rica",
+        "href": "http://english.hanban.org/node_8750.htm"
+      }
+    },
+    {
+      "country": "Croatia",
+      "university": {
+        "text": "University of Zagreb",
+        "href": "http://english.hanban.org/node_42717.htm"
+      }
+    },
+    {
+      "country": "Cuba",
+      "university": {
+        "text": "University of Habana",
+        "href": "http://uh.cu.chinesecio.com/"
+      }
+    },
+    {
+      "country": "Czech Republic",
+      "university": {
+        "text": "Palacky University",
+        "href": "http://konfucius.upol.cz/welcome/about/"
+      }
+    },
+    {
+      "country": "Denmark",
+      "university": [
+        {
+          "text": "Copenhagen Business Confucius Institute",
+          "href": "http://www.cbci.dk/www/"
+        },
+        {
+          "text": "Confucius Institute for Innovation & Learning at Aailborg University",
+          "href": "http://www.cidenmark.com/"
+        },
+        {
+          "text": "Royal Danish Academy of Music",
+          "href": "http://english.dkdm.dk/Confucius-Institute"
+        }
+      ]
+    },
+    {
+      "country": "Ecuador",
+      "university": {
+        "text": "San Francisco University of Quito",
+        "href": "http://icusfq.ec.chinesecio.com/"
+      }
+    },
+    {
+      "country": "Egypt",
+      "university": [
+        {
+          "text": "Cairo University",
+          "href": "http://english.hanban.org/node_10892.htm"
+        },
+        {
+          "text": "Suez Cannal University",
+          "href": "http://ciscu.eg.chinesecio.com/"
+        }
+      ]
+    },
+    {
+      "country": "Eritrea",
+      "university": {
+        "text": "Confucius Institute at National Board for Higher Education",
+        "href": "http://ci-nbhe.er.chinesecio.com/zh-hans"
+      }
+    },
+    {
+      "country": "Estonia",
+      "university": {
+        "text": "Tallinn University",
+        "href": "http://www.tlu.ee/en/confucius-institute"
+      }
+    },
+    {
+      "country": "Ethiopia",
+      "university": {
+        "text": "Addis Ababa Confucius Institute",
+        "href": "http://ciataau.et.chinesecio.com/"
+      }
+    },
+    {
+      "country": "Fiji",
+      "university": {
+        "text": "South Pacific University",
+        "href": "http://www.usp.ac.fj/index.php?id=10988"
+      }
+    },
+    {
+      "country": "Finland",
+      "university": {
+        "text": "University of Helsinki",
+        "href": "http://blogs.helsinki.fi/confucius-institute/"
+      }
+    },
+    {
+      "country": "France",
+      "university": [
+        {
+          "text": "Chinese Cultural Center in Paris",
+          "href": "http://english.hanban.org/node_9166.htm"
+        },
+        {
+          "text": "Confucius Institute in Alsace",
+          "href": "http://icalsace.fr.chinesecio.com/"
+        },
+        {
+          "text": "Confucius Institute in Artois",
+          "href": "http://www.univ-artois.fr/content/view/full/8011"
+        },
+        {
+          "text": "Confucius Institute in Brittany",
+          "href": "http://confucius-bretagne.fr.chinesecio.com/"
+        },
+        {
+          "text": "Confucius Institute in Clermont-Ferrand",
+          "href": "http://www.confucius-clermont-auvergne.org/"
+        },
+        {
+          "text": "Confucius Institute in La Rochelle",
+          "href": "http://iclr.fr.chinesecio.com/"
+        },
+        {
+          "text": "Confucius Institute in Montpellier",
+          "href": "http://english.hanban.org/node_42267.htm"
+        },
+        {
+          "text": "Confucius Institute in Toulouse",
+          "href": "http://www.ut-capitole.fr/the-university/academic-and-research-comphttp://www.univ-artois.fr/content/view/full/8011onents/the-toulouse-confucius-institute-ict--376230.kjsp"
+        },
+        {
+          "text": "Confucius Institute of Reunion Island",
+          "href": "http://confucius.univ-reunion.fr/"
+        },
+        {
+          "text": "Neoma Business Confucius Institute-Rouen",
+          "href": "http://confucius.neoma-bs.fr/"
+        },
+        {
+          "text": "Paris Diderot University",
+          "href": "http://konfuzius-institut.uni-graz.at/de/"
+        },
+        {
+          "text": "Pays de la Loire in Angers",
+          "href": "http://www.confucius-angers.eu/"
+        },
+        {
+          "text": "University of French Polynesia",
+          "href": "http://www.upf.pf/-L-Institut-Confucius-de-l-UPF-.html?lang=fr"
+        },
+        {
+          "text": "University of Lorraine",
+          "href": "http://www.univ-lorraine.fr/content/institut-confucius"
+        },
+        {
+          "text": "University of Poitiers",
+          "href": "http://poitiersci.fr.chinesecio.com/"
+        },
+        {
+          "text": "West Paris-Nanterre-La Defense University",
+          "href": "https://confucius.u-paris10.fr/autres-institut-confucius/la-chine-et-le-chinois-a-paris-ouest-396389.kjsp?RH=1355478302769"
+        }
+      ]
+    },
+    {
+      "country": "Georgia",
+      "university": {
+        "text": "Free University of Tbilisi",
+        "href": "http://english.hanban.org/node_13629.htm"
+      }
+    },
+    {
+      "country": "Germany",
+      "university": [
+        {
+          "text": "Confucius Institute in Bremen",
+          "href": "http://www.konfuzius-institut-bremen.de/"
+        },
+        {
+          "text": "Confucius Institute in Hannover",
+          "href": "http://www.konfuziusinstitut-hannover.de/home.html"
+        },
+        {
+          "text": "Confucius Institute in Munich",
+          "href": "http://www.konfuzius-muenchen.de/"
+        },
+        {
+          "text": "Confucius Institute Metropolis Ruhr",
+          "href": "https://www.uni-due.de/konfuzius-institut/index_en.shtml"
+        },
+        {
+          "text": "Confucius Institute Nurnberg at Friedrich-Alexander-University Erlangen-Nurnberg",
+          "href": "http://cinue.de.chinesecio.com/"
+        },
+        {
+          "text": "Erfurt University of Applied Sciences",
+          "href": "http://english.hanban.org/node_38116.htm"
+        },
+        {
+          "text": "Frankfurt University",
+          "href": "http://www.konfuzius-institut-frankfurt.de/"
+        },
+        {
+          "text": "Free University of Berlin",
+          "href": "http://www.konfuziusinstitut-berlin.de/"
+        },
+        {
+          "text": "Trier University",
+          "href": "https://www.uni-trier.de/index.php?id=24650&L=2"
+        },
+        {
+          "text": "University of Duesseldorf",
+          "href": "http://www.konfuzius-duesseldorf.de/"
+        },
+        {
+          "text": "University of Freiburg",
+          "href": "http://english.hanban.org/node_9000.htm"
+        },
+        {
+          "text": "University of Hamburg",
+          "href": "http://www.ki-hh.de/"
+        },
+        {
+          "text": "University of Heidelberg",
+          "href": "http://www.uni-heidelberg.de/presse/news09/press668e.html"
+        },
+        {
+          "text": "University of Leipzig",
+          "href": "http://www.konfuziusinstitut-leipzig.de/"
+        }
+      ]
+    },
+    {
+      "country": "Ghana",
+      "university": {
+        "text": "University of Ghana",
+        "href": "http://english.hanban.org/node_42047.htm"
+      }
+    },
+    {
+      "country": "Greece",
+      "university": {
+        "text": "Business Confucius Institute in Athens",
+        "href": "http://www.confucius.aueb.gr/index.php/en/"
+      }
+    },
+    {
+      "country": "Guyana",
+      "university": {
+        "text": "University of Guyana",
+        "href": "http://www.uog.edu.gy/?q=newsletter/classes-chinese-language-and-taichi-shadow-boxing"
+      }
+    },
+    {
+      "country": "Hong Kong",
+      "university": {
+        "text": "Confucius Institute of Hong Kong",
+        "href": "http://www.cihk.org.hk/en/index.php"
+      }
+    },
+    {
+      "country": "Hungary",
+      "university": [
+        {
+          "text": "Eotvos Lorand University",
+          "href": "http://www.elte.hu/en/confucius_institute"
+        },
+        {
+          "text": "University of Miskolc",
+          "href": "http://www.konfuciuszintezet.hu/index.php?menu=hirek&almenu=7&lang=en"
+        },
+        {
+          "text": "University of Szeged",
+          "href": "http://www.konfuciuszintezet.u-szeged.hu/confucius-institute"
+        }
+      ]
+    },
+    {
+      "country": "Iceland",
+      "university": {
+        "text": "Northern Light Confucius Institute in Iceland",
+        "href": "http://konfusius.is/information/"
+      }
+    },
+    {
+      "country": "India",
+      "university": [
+        {
+          "text": "University of Mumbai",
+          "href": "http://english.hanban.org/node_42192.htm"
+        },
+        {
+          "text": "VIT University",
+          "href": "http://vitclc.in.chinesecio.com/"
+        }
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "university": [
+        {
+          "text": "Pusat Bahasa Mandarin at Hasanuddin University",
+          "href": "http://pbmunhas.id.chinesecio.com/"
+        },
+        {
+          "text": "Pusat Bahasa Mandarin at Malang State University",
+          "href": "http://yinnimalang.id.chinesecio.com/"
+        },
+        {
+          "text": "Pusat Bahasa Mandarin at Maranatha Christian University",
+          "href": "http://english.hanban.org/node_13633.htm"
+        },
+        {
+          "text": "Pusat Bahasa Mandarin at Tanjungpura University",
+          "href": "http://ciuntan.id.chinesecio.com/"
+        },
+        {
+          "text": "Pusat Bahasa Mandarin at Universitas Negeri Surabaya",
+          "href": "http://english.hanban.org/node_13643.htm"
+        },
+        {
+          "text": "Pusat Bahasa Mandarin at University of Al Azhar Indonesia",
+          "href": "http://pbmuai.id.chinesecio.com/"
+        }
+      ]
+    },
+    {
+      "country": "Iran",
+      "university": {
+        "text": "University of Tehran",
+        "href": "http://english.hanban.org/node_10680.htm"
+      }
+    },
+    {
+      "country": "Ireland",
+      "university": [
+        {
+          "text": "UCD Confucius Institute for Ireland",
+          "href": "http://www.cii.ie/"
+        },
+        {
+          "text": "University College Cork in Ireland",
+          "href": "http://www.ucc.ie/en/asian/chinese/confucius/"
+        }
+      ]
+    },
+    {
+      "country": "Israel",
+      "university": [
+        {
+          "text": "Hebrew University of Jerusalem",
+          "href": "http://english.hanban.org/node_42191.htm"
+        },
+        {
+          "text": "Tel Aviv University",
+          "href": "http://www.tau.ac.il/humanities/abraham/confucius.html"
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "university": [
+        {
+          "text": "Confucius Institute in Bologna",
+          "href": "http://www.istitutoconfucio.unibo.it/"
+        },
+        {
+          "text": "Confucius Institute of Pisa",
+          "href": "http://www.sssup.it/confucio_home.jsp?ID_LINK=3352&area=46&lang=UK"
+        },
+        {
+          "text": "Oriental University of Napoli",
+          "href": "http://www.confucio.unior.it/index.php?lang=en&Itemid=776"
+        },
+        {
+          "text": "UCSC Milan Campus",
+          "href": "http://istitutoconfucio.unicatt.it/"
+        },
+        {
+          "text": "University of Florence",
+          "href": "http://english.hanban.org/node_42249.htm"
+        },
+        {
+          "text": "University of Macerata",
+          "href": "http://www.unimc.it/en/about/confucio-institute"
+        },
+        {
+          "text": "University of Milan",
+          "href": "http://it-unimi-confuciusinstitute.it.chinesecio.com/"
+        },
+        {
+          "text": "University of Padova",
+          "href": "http://www.unipd-org.it/istitutoconfucio/"
+        },
+        {
+          "text": "University of Rome La Sapienza",
+          "href": "http://it-uniroma1-confuciusinstitute.it.chinesecio.com/"
+        },
+        {
+          "text": "University of Turin",
+          "href": "http://istitutoconfucio.torino.it/zh/"
+        },
+        {
+          "text": "Venice University",
+          "href": "http://english.hanban.org/node_10549.htm"
+        }
+      ]
+    },
+    {
+      "country": "Jamaica",
+      "university": {
+        "text": "University of the West Indies-Mona Campus",
+        "href": "http://www.mona.uwi.edu/modlang/confucius-institute-%E5%AD%94%E5%AD%90%E5%AD%A6%E9%99%A2"
+      }
+    },
+    {
+      "country": "Japan",
+      "university": [
+        {
+          "text": "Aichi University",
+          "href": "http://aichici.jp.chinesecio.com/"
+        },
+        {
+          "text": "Chinese Medicine Confucius Institute at Hyogo College of Medicine",
+          "href": "http://www.corp.hyo-med.ac.jp/confucius.html"
+        },
+        {
+          "text": "Fukuyama University",
+          "href": "http://english.hanban.org/node_10743.htm"
+        },
+        {
+          "text": "Hokuriku University",
+          "href": "http://extension.hokuriku-u.ac.jp/koushi/"
+        },
+        {
+          "text": "J.F. Oberlin University",
+          "href": "http://english.hanban.org/node_10752.htm"
+        },
+        {
+          "text": "Kansai Gaidai University",
+          "href": "http://www.kansaigaidai.ac.jp/special/confucius/"
+        },
+        {
+          "text": "Kogakuin University",
+          "href": "http://cik.kogakuin.ac.jp/"
+        },
+        {
+          "text": "North South University",
+          "href": "http://www.northsouth.edu/academic/ic/confucius-institute.html"
+        },
+        {
+          "text": "Sapporo University",
+          "href": "http://www.sapporo-koshi.jp/"
+        },
+        {
+          "text": "Ritsumeikan",
+          "href": "http://www.ritsumei.ac.jp/mng/cc/confucius/greeting_e1.html"
+        },
+        {
+          "text": "Ritsumeikan Asia Pacific University",
+          "href": "http://apu-confucius.com/"
+        },
+        {
+          "text": "Okayama Shoka University",
+          "href": "http://english.hanban.org/node_10745.htm"
+        },
+        {
+          "text": "Osaka Sangyo University",
+          "href": "http://www.osu-confucius.jp/about_confusius/index.html"
+        },
+        {
+          "text": "Waseda University",
+          "href": "http://english.hanban.org/node_10746.htm"
+        }
+      ]
+    },
+    {
+      "country": "Jordan",
+      "university": [
+        {
+          "text": "Ammen TAG Confucius Institute",
+          "href": "http://english.hanban.org/node_10665.htm"
+        },
+        {
+          "text": "Philadelphia University",
+          "href": "http://english.hanban.org/node_37491.htm"
+        }
+      ]
+    },
+    {
+      "country": "Kazakhstan",
+      "university": [
+        {
+          "text": "Aktobe State Pedagogical Institute",
+          "href": "http://english.hanban.org/node_37912.htm"
+        },
+        {
+          "text": "Eurasian University",
+          "href": "http://english.hanban.org/node_10804.htm"
+        },
+        {
+          "text": "Kazakh National University",
+          "href": "http://english.hanban.org/node_10803.htm"
+        },
+        {
+          "text": "National Technical University of Karaganda of Kazakhstan",
+          "href": "http://english.hanban.org/node_42166.htm"
+        }
+      ]
+    },
+    {
+      "country": "Kenya",
+      "university": [
+        {
+          "text": "Egerton University",
+          "href": "http://cieu.ken.chinesecio.com/"
+        },
+        {
+          "text": "Kenyatta University",
+          "href": "http://english.hanban.org/node_10907.htm"
+        },
+        {
+          "text": "University of Nairobi",
+          "href": "http://confucius.uonbi.ac.ke/"
+        }
+      ]
+    },
+    {
+      "country": "Korea",
+      "university": [
+        {
+          "text": "Andong National University",
+          "href": "http://kongzi.andong.ac.kr/board/index.php"
+        },
+        {
+          "text": "Cheju Halla College",
+          "href": "http://english.hanban.org/node_10823.htm"
+        },
+        {
+          "text": "Chungbuk National University",
+          "href": "http://english.hanban.org/node_10815.htm"
+        },
+        {
+          "text": "Chungnam National University",
+          "href": "http://english.hanban.org/node_10819.htm"
+        },
+        {
+          "text": "Confucius Institute in Seoul",
+          "href": "http://www.cis.or.kr/main.htm/"
+        },
+        {
+          "text": "Daejin University",
+          "href": "http://daejin.kr.chinesecio.com/"
+        },
+        {
+          "text": "Dong-A University",
+          "href": "http://english.hanban.org/node_10818.htm"
+        },
+        {
+          "text": "Dongseo University",
+          "href": "http://dsuci.kr.chinesecio.com/"
+        },
+        {
+          "text": "Hankuk University of Foreign Studies",
+          "href": "http://www.gongja.ac.kr/"
+        },
+        {
+          "text": "Honam University",
+          "href": "http://english.hanban.org/node_10816.htm"
+        },
+        {
+          "text": "Kangwon National University",
+          "href": "http://english.hanban.org/node_10814.htm"
+        },
+        {
+          "text": "Keimyung University",
+          "href": "http://www.kongzi.ac.kr/"
+        },
+        {
+          "text": "Kyung Hee University",
+          "href": "http://kyunghee.kr.chinesecio.com/"
+        },
+        {
+          "text": "Sehan University",
+          "href": "http://gj-ko.sehan.ac.kr/"
+        },
+        {
+          "text": "Soon Chun Hyang University",
+          "href": "http://english.hanban.org/node_10811.htm"
+        },
+        {
+          "text": "University of Incheon",
+          "href": "http://ciui.kr.chinesecio.com/"
+        },
+        {
+          "text": "Woosong University",
+          "href": "http://english.hanban.org/node_10820.htm"
+        },
+        {
+          "text": "Woosuk University",
+          "href": "http://woosukgongja.kr.chinesecio.com/"
+        },
+        {
+          "text": "Yonsei University",
+          "href": "http://english.hanban.org/node_42168.htm"
+        }
+      ]
+    },
+    {
+      "country": "Kyrgyzstan",
+      "university": [
+        {
+          "text": "Bishkek Humanities University",
+          "href": "http://english.hanban.org/node_10798.htm"
+        },
+        {
+          "text": "Kyrgyz National University",
+          "href": "http://kgkzxy.kg.chinesecio.com/"
+        },
+        {
+          "text": "Osh State University",
+          "href": "http://english.hanban.org/node_42181.htm"
+        }
+      ]
+    },
+    {
+      "country": "Laos",
+      "university": {
+        "text": "National University of Laos",
+        "href": "http://english.hanban.org/node_10656.htm"
+      }
+    },
+    {
+      "country": "Latvia",
+      "university": {
+        "text": "University of Latvia",
+        "href": "http://www.ci.lu.lv/?cat=10&lang=en"
+      }
+    },
+    {
+      "country": "Lebanon",
+      "university": {
+        "text": "Confucius Institute at St. Joseph University",
+        "href": "http://ciusj.leb.chinesecio.com/"
+      }
+    },
+    {
+      "country": "Liberia",
+      "university": {
+        "text": "University of Liberia",
+        "href": "http://ciul.lr.chinesecio.com/"
+      }
+    },
+    {
+      "country": "Lithuania",
+      "university": {
+        "text": "Vilnius University",
+        "href": "http://www.konfucijus.oc.vu.lt/"
+      }
+    },
+    {
+      "country": "Macedonia",
+      "university": {
+        "text": "SS Cyril and Methodius University",
+        "href": "http://english.hanban.org/node_42294.htm"
+      }
+    },
+    {
+      "country": "Madagascar",
+      "university": {
+        "text": "Antananarivo University",
+        "href": "http://icua.mdg.chinesecio.com/"
+      }
+    },
+    {
+      "country": "Malaysia",
+      "university": {
+        "text": "Kongzi Institute for the Teaching of Chinese Language at University of Malaya",
+        "href": "http://english.hanban.org/node_10788.htm"
+      }
+    },
+    {
+      "country": "Malawi",
+      "university": {
+        "text": "University of Malawi",
+        "href": "http://english.hanban.org/node_42051.htm"
+      }
+    },
+    {
+      "country": "Malta",
+      "university": {
+        "text": "University of Malta",
+        "href": "https://www.um.edu.mt/confucius"
+      }
+    },
+    {
+      "country": "Mexico",
+      "university": [
+        {
+          "text": "Autonomic National University of Mexico",
+          "href": "http://icunam.mx.chinesecio.com/"
+        },
+        {
+          "text": "Autonomic University of Chihuahua",
+          "href": "http://icunam.mx.chinesecio.com/"
+        },
+        {
+          "text": "Autonomic University of New Leon",
+          "href": "http://english.hanban.org/node_8632.htm"
+        },
+        {
+          "text": "Autonomic University of Yucatan",
+          "href": "http://icuady.mx.chinesecio.com/"
+        },
+        {
+          "text": "Confucius Institute in Mexico City",
+          "href": "http://english.hanban.org/node_8633.htm"
+        }
+      ]
+    },
+    {
+      "country": "Moldova",
+      "university": {
+        "text": "Free International University of Moldova",
+        "href": "http://iculim.md.chinesecio.com/"
+      }
+    },
+    {
+      "country": "Mongolia",
+      "university": {
+        "text": "National University of Mongolia",
+        "href": "http://english.hanban.org/node_10787.htm"
+      }
+    },
+    {
+      "country": "Morocco",
+      "university": [
+        {
+          "text": "University of Hassan II",
+          "href": "http://ciuh2c.ma.chinesecio.com/"
+        },
+        {
+          "text": "University Mohammed V-Agdal",
+          "href": "http://ci-mu5.ma.chinesecio.com/"
+        }
+      ]
+    },
+    {
+      "country": "Mozambique",
+      "university": {
+        "text": "Eduardo Mondlane University",
+        "href": "http://english.hanban.org/node_37935.htm"
+      }
+    },
+    {
+      "country": "Namibia",
+      "university": {
+        "text": "University of Namibia",
+        "href": "http://english.hanban.org/node_42053.htm"
+      }
+    },
+    {
+      "country": "Nepal",
+      "university": {
+        "text": "Kathmandu University",
+        "href": "http://ciku.np.chinesecio.com/"
+      }
+    },
+    {
+      "country": "Netherlands",
+      "university": [
+        {
+          "text": "Groningen Confucius Institute",
+          "href": "http://konfuzius-institut.uni-graz.at/de/"
+        },
+        {
+          "text": "Leiden University",
+          "href": "http://cilu-nl.nl.chinesecio.com/"
+        }
+      ]
+    },
+    {
+      "country": "New Zealand",
+      "university": [
+        {
+          "text": "Confucius Institute in Auckland",
+          "href": "http://ci.ac.nz/"
+        },
+        {
+          "text": "University of Canterbury",
+          "href": "http://www.ci.canterbury.ac.nz/"
+        },
+        {
+          "text": "Victoria University of Wellington",
+          "href": "http://www.victoria.ac.nz/ci"
+        }
+      ]
+    },
+    {
+      "country": "Nigeria",
+      "university": [
+        {
+          "text": "Nnamdi Azikiwe University",
+          "href": "http://www.unizik.edu.ng/centre_institute/CONFUCIUS-CENTRE/"
+        },
+        {
+          "text": "University of Lagos",
+          "href": "http://www.ciunilag.org/"
+        }
+      ]
+    },
+    {
+      "country": "Norway",
+      "university": {
+        "text": "Confucius Institute in Bergen",
+        "href": "http://www.konfucius.no/"
+      }
+    },
+    {
+      "country": "Pakistan",
+      "university": [
+        {
+          "text": "Confucius Institute in Islamabad",
+          "href": "http://cii.pk.chinesecio.com/"
+        },
+        {
+          "text": "University of Karachi",
+          "href": "http://ciuok.pk.chinesecio.com/"
+        }
+      ]
+    },
+    {
+      "country": "Peru",
+      "university": [
+        {
+          "text": "Catholic University of Peru",
+          "href": "http://confucio.pucp.edu.pe/"
+        },
+        {
+          "text": "Catholic University of Santa Maria",
+          "href": "http://icucsm.pe.chinesecio.com/"
+        },
+        {
+          "text": "Ricardo Palma University",
+          "href": "http://www.urp.edu.pe/iconfucio/"
+        },
+        {
+          "text": "University of Piura",
+          "href": "http://www.confucio.udep.edu.pe/"
+        }
+      ]
+    },
+    {
+      "country": "Philippines",
+      "university": [
+        {
+          "text": "Angeles University Foundation",
+          "href": "http://ciauf.ph.chinesecio.com/"
+        },
+        {
+          "text": "Ateneo de Manila University",
+          "href": "http://ateneoconfucius.ph.chinesecio.com/"
+        },
+        {
+          "text": "Bulacan State University",
+          "href": "http://english.hanban.org/node_10859.htm"
+        }
+      ]
+    },
+    {
+      "country": "Poland",
+      "university": [
+        {
+          "text": "Adam Mickiewicz University",
+          "href": "http://www.konfucjusz.amu.edu.pl/"
+        },
+        {
+          "text": "Confucius Institute in Krakow",
+          "href": "http://instytutkonfucjusza.pl.chinesecio.com/"
+        },
+        {
+          "text": "Opole University of Technology",
+          "href": "http://english.hanban.org/node_8973.htm"
+        },
+        {
+          "text": "University of Wroclaw",
+          "href": "http://wroclawci.pl.chinesecio.com/"
+        }
+      ]
+    },
+    {
+      "country": "Portugal",
+      "university": [
+        {
+          "text": "University of Lisbon",
+          "href": "http://confucio.ulisboa.pt/"
+        },
+        {
+          "text": "University of Minho",
+          "href": "http://www.confucio.uminho.pt/"
+        }
+      ]
+    },
+    {
+      "country": "Romania",
+      "university": [
+        {
+          "text": "Babes Bolyai University of Cluj-Napoca",
+          "href": "http://english.hanban.org/node_9300.htm"
+        },
+        {
+          "text": "Lucian Blaga University of Sibiu",
+          "href": "http://cisibiu.ro.chinesecio.com/"
+        },
+        {
+          "text": "Transilvania University of Brasov",
+          "href": "http://confucius.unitbv.ro/"
+        },
+        {
+          "text": "University of Bucharest",
+          "href": "http://confucius.unibuc.ro/"
+        }
+      ]
+    },
+    {
+      "country": "Russia",
+      "university": [
+        {
+          "text": "Amur State University of Humanities and Pedagogy",
+          "href": "http://ciamgpgu.ru.chinesecio.com/"
+        },
+        {
+          "text": "Blagoveshchensk National Pedagogical University",
+          "href": "http://english.hanban.org/node_9079.htm"
+        },
+        {
+          "text": "Buryat State University",
+          "href": "http://kongzi.bsu.ru/?lang=en"
+        },
+        {
+          "text": "Confucius Institute at Diplomatic Academy of the Ministry of Foreign Affairs of the Russian Federation",
+          "href": "http://english.hanban.org/node_42269.htm"
+        },
+        {
+          "text": "Far Eastern National University",
+          "href": "http://english.hanban.org/node_9114.htm"
+        },
+        {
+          "text": "Irkutsk State University",
+          "href": "http://english.hanban.org/node_9089.htm"
+        },
+        {
+          "text": "Kazan State University",
+          "href": "http://kashankongyuan.ru.chinesecio.com/"
+        },
+        {
+          "text": "Lomonosov Moscow State University",
+          "href": "http://msu.ru.chinesecio.com/"
+        },
+        {
+          "text": "Moscow State Linguistic University",
+          "href": "http://www.ci-mglu.ru/"
+        },
+        {
+          "text": "Nizhny Novgorod State Linguistic University",
+          "href": "http://english.hanban.org/node_13150.htm"
+        },
+        {
+          "text": "Novosibirsk State University of Technology",
+          "href": "http://www.confucius.nstu.ru/"
+        },
+        {
+          "text": "Russian State University for the Humanities",
+          "href": "http://www.confucius-institute.ru/"
+        },
+        {
+          "text": "Ryazan State University",
+          "href": "http://www.rsu.edu.ru/main/university-today/international-%D0%B0ctivities/mobility-t/confucius"
+        },
+        {
+          "text": "Saint-Petersburg State University",
+          "href": "http://www.ci.spbu.ru/"
+        },
+        {
+          "text": "The Kalmyk State University",
+          "href": "http://english.hanban.org/node_9078.htm"
+        },
+        {
+          "text": "Tomsk State University",
+          "href": "http://confucius.tsu.ru/main.html"
+        },
+        {
+          "text": "Ural State University",
+          "href": "http://english.hanban.org/node_9072.htm"
+        },
+        {
+          "text": "Volgograd State Pedagogical University",
+          "href": "http://www.vspu.ru/ci"
+        }
+      ]
+    },
+    {
+      "country": "Rwanda",
+      "university": {
+        "text": "Kigali Institute of Education",
+        "href": "http://english.hanban.org/node_10921.htm"
+      }
+    },
+    {
+      "country": "Senegal",
+      "university": {
+        "text": "University of Dakar",
+        "href": "http://english.hanban.org/node_42055.htm"
+      }
+    },
+    {
+      "country": "Serbia",
+      "university": [
+        {
+          "text": "Confucius Institute in Belgrade",
+          "href": "http://ikbg2006.rs.chinesecio.com/"
+        },
+        {
+          "text": "University of Novi Sad",
+          "href": "http://english.hanban.org/node_42256.htm"
+        }
+      ]
+    },
+    {
+      "country": "Sierra Leone",
+      "university": {
+        "text": "University of Sierra Leone",
+        "href": "http://ciusl.sl.chinesecio.com/"
+      }
+    },
+    {
+      "country": "Singapore",
+      "university": {
+        "text": "Nanyang Technological University",
+        "href": "http://www.ci-ntu.com/home"
+      }
+    },
+    {
+      "country": "Slovakia",
+      "university": {
+        "text": "Confucius Institute in Bratislava",
+        "href": "http://english.hanban.org/node_10516.htm"
+      }
+    },
+    {
+      "country": "Slovenia",
+      "university": {
+        "text": "University of Ljubljana",
+        "href": "http://english.hanban.org/node_10622.htm"
+      }
+    },
+    {
+      "country": "South Africa",
+      "university": [
+        {
+          "text": "Centre for Chinese Studies",
+          "href": "http://www.ccs.org.za/"
+        },
+        {
+          "text": "Durban University of Technology",
+          "href": "http://dut.za.chinesecio.com/"
+        },
+        {
+          "text": "Rhodes University",
+          "href": "http://www.ru.ac.za/confuciusinstitute/"
+        },
+        {
+          "text": "University of Cape Town",
+          "href": "http://uctci.za.chinesecio.com/"
+        }
+      ]
+    },
+    {
+      "country": "Spain",
+      "university": [
+        {
+          "text": "Confucius Institute in Barcelona",
+          "href": "http://barcelona.es.chinesecio.com/"
+        },
+        {
+          "text": "Confucius Institute in Madrid",
+          "href": "http://www.confuciomadrid.es/"
+        },
+        {
+          "text": "The University of Las Palmas of Gran Canaria",
+          "href": "http://iclps.es.chinesecio.com/"
+        },
+        {
+          "text": "Universidad de Leon",
+          "href": "http://fgulem.unileon.es/confucio/"
+        },
+        {
+          "text": "University of Granada",
+          "href": "http://institutoconfucio.ugr.es/"
+        },
+        {
+          "text": "University of Valencia",
+          "href": "http://confucio-valencia.es.chinesecio.com/"
+        }
+      ]
+    },
+    {
+      "country": "Sri Lanka",
+      "university": {
+        "text": "University of Kelaniya",
+        "href": "http://ciuok.lk.chinesecio.com/"
+      }
+    },
+    {
+      "country": "Sudan",
+      "university": {
+        "text": "University of Khartoum",
+        "href": "http://english.hanban.org/node_10945.htm"
+      }
+    },
+    {
+      "country": "Sweden",
+      "university": [
+        {
+          "text": "Blekinge Institute of Technology",
+          "href": "http://www.bth.se/hle/konfuciusinstitute_eng.nsf/pages/confucius-institute"
+        },
+        {
+          "text": "Confucius Institute in Lulea",
+          "href": "http://lci.se.chinesecio.com/"
+        },
+        {
+          "text": "Karlstad University",
+          "href": "http://konfuzius-institut.uni-graz.at/en/"
+        },
+        {
+          "text": "Nordic Confucius Institute in Stockholm",
+          "href": "http://www.orient.su.se/english/confucius-institute"
+        }
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "university": [
+        {
+          "text": "Confucius Institute in Geneva",
+          "href": "http://www.unige.ch/ic/index.html"
+        },
+        {
+          "text": "University of Basel",
+          "href": "http://konfuzius-institut.uni-graz.at/en/"
+        }
+      ]
+    },
+    {
+      "country": "Tajikistan",
+      "university": {
+        "text": "Tajikistan National University",
+        "href": "http://tjkzxy.tj.chinesecio.com/"
+      }
+    },
+    {
+      "country": "Tanzania",
+      "university": [
+        {
+          "text": "University of Dar es Salaam",
+          "href": "http://english.hanban.org/node_42058.htm"
+        },
+        {
+          "text": "University of Dodoma",
+          "href": "http://ciudom.tz.chinesecio.com/"
+        }
+      ]
+    },
+    {
+      "country": "Thailand",
+      "university": [
+        {
+          "text": "Bansomdejchaopraya Rajabhat University",
+          "href": "http://english.hanban.org/node_10705.htm"
+        },
+        {
+          "text": "Betong Municipality",
+          "href": "http://english.hanban.org/node_10702.htm"
+        },
+        {
+          "text": "Burapha University",
+          "href": "http://english.hanban.org/node_10701.htm"
+        },
+        {
+          "text": "Chiang Mai University",
+          "href": "http://english.hanban.org/node_10708.htm"
+        },
+        {
+          "text": "Chulalongkorn University",
+          "href": "http://english.hanban.org/node_10712.htm"
+        },
+        {
+          "text": "Kasetsart University",
+          "href": "http://english.hanban.org/node_10711.htm"
+        },
+        {
+          "text": "Khon Kaen University",
+          "href": "http://ci-kku.thai.chinesecio.com/"
+        },
+        {
+          "text": "Mae Fah Luang University",
+          "href": "http://english.hanban.org/node_10709.htm"
+        },
+        {
+          "text": "Mahasarakham University",
+          "href": "http://msuci.th.chinesecio.com/"
+        },
+        {
+          "text": "Phuket-Prince of Songkla University",
+          "href": "http://english.hanban.org/node_10703.htm"
+        },
+        {
+          "text": "Prince of Songkla University",
+          "href": "http://www.confucius.psu.ac.th/index.php/ZH/"
+        },
+        {
+          "text": "Suan Dusit Rajabhat University at Suphanburi",
+          "href": "http://english.hanban.org/node_10704.htm"
+        }
+      ]
+    },
+    {
+      "country": "Togo",
+      "university": {
+        "text": "University of Lome",
+        "href": "http://english.hanban.org/node_10951.htm"
+      }
+    },
+    {
+      "country": "Trinidad and Tobage",
+      "university": {
+        "text": "University of the West Indies-St Augustine Campus",
+        "href": "http://english.hanban.org/node_42068.htm"
+      }
+    },
+    {
+      "country": "Turkey",
+      "university": [
+        {
+          "text": "Bogazici University",
+          "href": "http://english.hanban.org/node_10695.htm"
+        },
+        {
+          "text": "Middle East Technical University",
+          "href": "http://cimetu.tr.chinesecio.com/"
+        },
+        {
+          "text": "Okan University",
+          "href": "http://okanci.tr.chinesecio.com/"
+        }
+      ]
+    },
+    {
+      "country": "Ukraine",
+      "university": [
+        {
+          "text": "Kharkiv State University",
+          "href": "http://english.hanban.org/node_10519.htm"
+        },
+        {
+          "text": "Kiev State Linguistic University",
+          "href": "http://english.hanban.org/node_42255.htm"
+        },
+        {
+          "text": "Luhansk National Pedagogical University",
+          "href": "http://english.hanban.org/node_10521.htm"
+        },
+        {
+          "text": "National Taras Shevchenko University of Kiev",
+          "href": "http://english.hanban.org/node_10520.htm"
+        },
+        {
+          "text": "South Ukranian National Pedagogical University",
+          "href": "http://english.hanban.org/node_42669.htm"
+        }
+      ]
+    },
+    {
+      "country": "United Arab Emirates",
+      "university": [
+        {
+          "text": "University of Dubai",
+          "href": "http://ciud.ae.chinesecio.com/"
+        },
+        {
+          "text": "Zayed University",
+          "href": "http://www.zu.ac.ae/main/en/explore_zu/_mou/BFSU.aspx"
+        }
+      ]
+    },
+    {
+      "country": "United Kingdom",
+      "university": [
+        {
+          "text": "Business Confucius Institute at the University of Leeds",
+          "href": "http://lubswww.leeds.ac.uk/confucius/home/"
+        },
+        {
+          "text": "Cardiff University",
+          "href": "http://www.cardiff.ac.uk/learn/confucius-institute/"
+        },
+        {
+          "text": "Confucius Institute at the Institute of Education, University of London",
+          "href": "https://ciforschools.wordpress.com/"
+        },
+        {
+          "text": "Confucius Institute for Business, London",
+          "href": "http://www.lse.ac.uk/cibl/home.aspx"
+        },
+        {
+          "text": "Confucius Institute for Dance and Performance at Goldsmiths, University of London",
+          "href": "http://www.gold.ac.uk/confucius-institute/"
+        },
+        {
+          "text": "Confucius Institute for Scotland in the University of Edinburgh",
+          "href": "http://www.confuciusinstitute.ac.uk/"
+        },
+        {
+          "text": "Confucius Institute for Scotland's Schools",
+          "href": "http://www.strath.ac.uk/ciss/"
+        },
+        {
+          "text": "Confucius Institute for Traditional Chinese Medicine, London",
+          "href": "http://www.ci4tcm.com/"
+        },
+        {
+          "text": "De Montfort University",
+          "href": "http://www.dmu.ac.uk/about-dmu/confucius-institute/confucius-institute.aspx"
+        },
+        {
+          "text": "Edge Hill University",
+          "href": "https://www.edgehill.ac.uk/confuciusinstitute/about/"
+        },
+        {
+          "text": "Lancaster University",
+          "href": "http://www.lancaster.ac.uk/confuciusinstitute/"
+        },
+        {
+          "text": "London Confucius Institute",
+          "href": "https://www.soas.ac.uk/lci/"
+        },
+        {
+          "text": "Scottish Confucius Institute for Business and Communication at Heriot Watt University",
+          "href": "http://english.hanban.org/node_43189.htm"
+        },
+        {
+          "text": "University of Aberdeen",
+          "href": "http://www.abdn.ac.uk/confucius/"
+        },
+        {
+          "text": "University of Central Lancashire",
+          "href": "http://www.uclan.ac.uk/confucius/"
+        },
+        {
+          "text": "University of Glasgow",
+          "href": "http://www.gla.ac.uk/about/confucius/"
+        },
+        {
+          "text": "University of Liverpool",
+          "href": "http://www.liv.ac.uk/confucius-institute/"
+        },
+        {
+          "text": "University of Manchester",
+          "href": "http://www.confuciusinstitute.manchester.ac.uk/"
+        },
+        {
+          "text": "University of Nottingham",
+          "href": "http://www.nottingham.ac.uk/chinese/confucius/index.aspx"
+        },
+        {
+          "text": "University of Sheffield",
+          "href": "http://www.sheffield.ac.uk/confucius/sci"
+        },
+        {
+          "text": "University of Southampton",
+          "href": "http://www.southampton.ac.uk/ci/index.page"
+        },
+        {
+          "text": "University of Ulster",
+          "href": "http://www.ulster.ac.uk/confucius/"
+        },
+        {
+          "text": "University of Wales Trinity Saint David",
+          "href": "http://www.uwtsd.ac.uk/confucius-institute/"
+        },
+        {
+          "text": "University of Wales-Lampeter",
+          "href": "http://english.hanban.org/node_10578.htm"
+        }
+      ]
+    },
+    {
+      "country": "United States",
+      "university": [
+        {
+          "text": "Alfred University",
+          "href": "http://confucius.alfred.edu/"
+        },
+        {
+          "text": "Arizona State University",
+          "href": "http://confuciusinstitute.asu.edu/portal/home"
+        },
+        {
+          "text": "Auburn University at Montgomery",
+          "href": "http://www.aum.edu/campus-life/international-community/office-of-east-asia-initiatives/events"
+        },
+        {
+          "text": "Broward County Public Schools",
+          "href": "http://english.hanban.org/node_41290.htm"
+        },
+        {
+          "text": "Bryant University",
+          "href": "http://china.bryant.edu/confucius-institute/"
+        },
+        {
+          "text": "Central Connecticut State University",
+          "href": "http://web.ccsu.edu/ci/"
+        },
+        {
+          "text": "Cleveland State University",
+          "href": "http://www.csuohio.edu/confucius/confucius"
+        },
+        {
+          "text": "College of William & Mary",
+          "href": "http://www.wm.edu/sites/confuciusinstitute/"
+        },
+        {
+          "text": "Colorado State University",
+          "href": "http://international.colostate.edu/cicsu/"
+        },
+        {
+          "text": "Community College of Denver",
+          "href": "https://www.ccd.edu/org/confucius-institute"
+        },
+        {
+          "text": "Confucius Institute at China Institute",
+          "href": "http://www.chinainstitute.org/"
+        },
+        {
+          "text": "Confucius Institute at Columbia University",
+          "href": "http://english.hanban.org/node_8327.htm"
+        },
+        {
+          "text": "Confucius Institute for Business at State University of New York",
+          "href": "http://confuciusbusiness.suny.edu/"
+        },
+        {
+          "text": "Confucius Institute in Atlanta",
+          "href": "http://confucius.emory.edu/index.html"
+        },
+        {
+          "text": "Confucius Institute in Chicago",
+          "href": "http://www.confuciusinstituteinchicago.com/"
+        },
+        {
+          "text": "Confucius Institute in Indianapolis",
+          "href": "http://www.iupui.edu/~china/"
+        },
+        {
+          "text": "Confucius Institute of Chinese Opera at the State University of New York at Binghamton",
+          "href": "http://www.binghamton.edu/confucius-institute/"
+        },
+        {
+          "text": "East Central Ohio Educational Service Center",
+          "href": "http://english.hanban.org/node_41291.htm"
+        },
+        {
+          "text": "George Mason University",
+          "href": "http://confucius.gmu.edu/aboutus.cfm"
+        },
+        {
+          "text": "George Washington University",
+          "href": "http://confucius.columbian.gwu.edu/about"
+        },
+        {
+          "text": "Georgia Regents University",
+          "href": "http://www.gru.edu/centers/confucius/"
+        },
+        {
+          "text": "Georgia State University",
+          "href": "http://ci.gsu.edu/"
+        },
+        {
+          "text": "Houston Independent School District",
+          "href": "http://www.houstonisd.org/Page/92782"
+        },
+        {
+          "text": "Kennesaw State University",
+          "href": "http://www.kennesaw.edu/confuciusinstitute/index.html#aboutus"
+        },
+        {
+          "text": "Miami University",
+          "href": "http://miamioh.edu/global/confuciusinstitute/"
+        },
+        {
+          "text": "Miami Dade College",
+          "href": "http://www.mdc.edu/mdcglobal/ci/about-us/"
+        },
+        {
+          "text": "Michigan State University",
+          "href": "http://asia.isp.msu.edu/outreach/confucius_institute.htm"
+        },
+        {
+          "text": "Middle Tennessee University",
+          "href": "http://www.mtsu.edu/cimtsu/index.php"
+        },
+        {
+          "text": "New Mexico State University",
+          "href": "http://confucius.nmsu.edu/"
+        },
+        {
+          "text": "North Carolina State University",
+          "href": "http://oia.ncsu.edu/confucius"
+        },
+        {
+          "text": "Old Dominion University",
+          "href": "https://www.odu.edu/academics/international-learning-opportunities/chinacenter"
+        },
+        {
+          "text": "Pace University",
+          "href": "http://www.pace.edu/confucius/"
+        },
+        {
+          "text": "Pennsylvania State University",
+          "href": "http://www.confucius.la.psu.edu/"
+        },
+        {
+          "text": "Pfeiffer University",
+          "href": "http://www.cipfeiffer.org/english/"
+        },
+        {
+          "text": "Portland State University",
+          "href": "http://www.pdx.edu/confucius-institute/about"
+        },
+        {
+          "text": "Prairie View A&M University",
+          "href": "http://pvamuci.us.chinesecio.com/"
+        },
+        {
+          "text": "Presbyterian College",
+          "href": "http://www.presby.edu/ci/"
+        },
+        {
+          "text": "Purdue University",
+          "href": "http://tell.cla.purdue.edu/confucius/"
+        },
+        {
+          "text": "Rutgers-the State University of New Jersey",
+          "href": "http://www.ciru.rutgers.edu/"
+        },
+        {
+          "text": "San Diego State University",
+          "href": "http://confucius.sdsu.edu/index.html"
+        },
+        {
+          "text": "San Francisco State University",
+          "href": "http://www.sfsu.edu/~ci/"
+        },
+        {
+          "text": "St. Cloud State University",
+          "href": "http://www.stcloudstate.edu/confucius/default.aspx"
+        },
+        {
+          "text": "Stanford University",
+          "href": "http://ealc.stanford.edu/confucius_institute/"
+        },
+        {
+          "text": "State College of Optometry-State University of New York",
+          "href": "http://www.sunyopt.edu/education/academics/international_programs/confucius_institute"
+        },
+        {
+          "text": "State of Washington",
+          "href": "http://confucius.washington.edu/"
+        },
+        {
+          "text": "State University of New York at Buffalo",
+          "href": "http://www.confuciusinstitute.buffalo.edu/"
+        },
+        {
+          "text": "Stony Brook University",
+          "href": "http://www.stonybrook.edu/confucius/"
+        },
+        {
+          "text": "Texas A&M University",
+          "href": "http://confucius.tamu.edu/Home"
+        },
+        {
+          "text": "Texas Southern University",
+          "href": "http://www.tsu.edu/academics/colleges__schools/colabs/foreign-languages/confucius-institute.php"
+        },
+        {
+          "text": "Troy University",
+          "href": "http://www.troy.edu/confucius/"
+        },
+        {
+          "text": "Tulane University",
+          "href": "http://tulane.edu/liberal-arts/confucius/index.cfm"
+        },
+        {
+          "text": "University at Albany, State University of New York",
+          "href": "http://english.hanban.org/node_41403.htm"
+        },
+        {
+          "text": "University of Akron",
+          "href": "http://www.uakron.edu/ci/index.dot"
+        },
+        {
+          "text": "University of Alaska Anchorage",
+          "href": "http://www.uaa.alaska.edu/ci/"
+        },
+        {
+          "text": "University of Arizona",
+          "href": "http://confucius.arizona.edu/"
+        },
+        {
+          "text": "University of California-Davis",
+          "href": "http://confucius.ucdavis.edu/"
+        },
+        {
+          "text": "University of California-Los Angeles",
+          "href": "http://www.confucius.ucla.edu/"
+        },
+        {
+          "text": "University of Central Arkansas",
+          "href": "http://uca.edu/confucius/"
+        },
+        {
+          "text": "University of Chicago",
+          "href": "http://confuciusinstitute.uchicago.edu/"
+        },
+        {
+          "text": "University of Delaware",
+          "href": "http://sites.udel.edu/ci/"
+        },
+        {
+          "text": "University of Idaho",
+          "href": "http://www.uidaho.edu/class/confucius-institute"
+        },
+        {
+          "text": "University of Illinois at Urbana-Champaign",
+          "href": "http://english.hanban.org/node_41324.htm"
+        },
+        {
+          "text": "University of Iowa",
+          "href": "http://international.uiowa.edu/academic/confucius"
+        },
+        {
+          "text": "University of Hawaii at Manoa",
+          "href": "http://confuciusinstitutehawaii.org/"
+        },
+        {
+          "text": "University of Kansas",
+          "href": "https://confucius.ku.edu/"
+        },
+        {
+          "text": "University of Kentucky",
+          "href": "http://www.uky.edu/international/confucius_institute"
+        },
+        {
+          "text": "University of Maryland",
+          "href": "http://www.ois.umd.edu/cim/"
+        },
+        {
+          "text": "University of Massachusetts Confucius Institute at Boston",
+          "href": "http://www.umb.edu/confucius"
+        },
+        {
+          "text": "University of Memphis",
+          "href": "http://www.memphis.edu/cium/about.htm"
+        },
+        {
+          "text": "University of Michigan",
+          "href": "http://www.confucius.umich.edu/"
+        },
+        {
+          "text": "University of Minnesota",
+          "href": "http://confucius.umn.edu/"
+        },
+        {
+          "text": "University of Missouri",
+          "href": "http://muvpipconfuciusinstitute.com/Home.html"
+        },
+        {
+          "text": "University of Montana",
+          "href": "http://www.umt.edu/mansfield/ci/"
+        },
+        {
+          "text": "University of Nebraska-Lincoln",
+          "href": "http://confuciusinstitute.unl.edu/"
+        },
+        {
+          "text": "University of New Hampshire",
+          "href": "http://cola.unh.edu/confucius"
+        },
+        {
+          "text": "University of Oklahoma",
+          "href": "http://ouci.ou.edu/"
+        },
+        {
+          "text": "University of Oregon",
+          "href": "http://confucius.uoregon.edu/"
+        },
+        {
+          "text": "University of Pittsburgh",
+          "href": "http://www.ucis.pitt.edu/cipitt/index.html"
+        },
+        {
+          "text": "University of Rhode Island",
+          "href": "http://web.uri.edu/confucius/"
+        },
+        {
+          "text": "University of South Carolina",
+          "href": "http://ci.sc.edu/confucius-institute"
+        },
+        {
+          "text": "University of South Florida",
+          "href": "http://global.usf.edu/confucius/"
+        },
+        {
+          "text": "University of Southern Maine",
+          "href": "http://usm.maine.edu/confucius"
+        },
+        {
+          "text": "University of Tennessee",
+          "href": "http://confucius.utk.edu/"
+        },
+        {
+          "text": "University of Texas at Dallas",
+          "href": "http://www.utdallas.edu/ah/confucius/"
+        },
+        {
+          "text": "University of Texas at San Antonio",
+          "href": "http://utsa.edu/confucius/"
+        },
+        {
+          "text": "University of Toledo",
+          "href": "http://www.utoledo.edu/cisp/Confucius_Institute/"
+        },
+        {
+          "text": "University of Utah",
+          "href": "http://confucius-institute.utah.edu/"
+        },
+        {
+          "text": "University of West Florida",
+          "href": "http://uwf.edu/offices/international-education-and-programs/confucius-institute/ci-overview/"
+        },
+        {
+          "text": "University of Wisconsin-Platteville",
+          "href": "http://www.uwplatt.edu/confucius"
+        },
+        {
+          "text": "Valparaiso University",
+          "href": "http://www.valpo.edu/confuciusinstitute/"
+        },
+        {
+          "text": "Wayne State University",
+          "href": "http://clas.wayne.edu/ci"
+        },
+        {
+          "text": "Webster University",
+          "href": "http://www.webster.edu/confucius-institute/"
+        },
+        {
+          "text": "West Kentucky University",
+          "href": "http://www.wku.edu/ci/index.php"
+        },
+        {
+          "text": "Wesleyan College",
+          "href": "http://www.wesleyancollege.edu/academics/confuciusinstitute.cfm"
+        },
+        {
+          "text": "Western Michigan University",
+          "href": "http://www.wmuconfucius.org/"
+        },
+        {
+          "text": "Xavier University of Louisiana",
+          "href": "http://www.xula.edu/confucius/index.php"
+        }
+      ]
+    },
+    {
+      "country": "Uzbekistan",
+      "university": [
+        {
+          "text": "Confucius Institute in Tashkent",
+          "href": "http://english.hanban.org/node_10692.htm"
+        },
+        {
+          "text": "Samarkand State Institute of Foreign Languages",
+          "href": "http://english.hanban.org/node_42189.htm"
+        }
+      ]
+    },
+    {
+      "country": "Zambia",
+      "university": {
+        "text": "University of Zambia",
+        "href": "http://www.unza.zm/institutes/confucius/"
+      }
+    },
+    {
+      "country": "Zimbabwe",
+      "university": {
+        "text": "University of Zimbabwe",
+        "href": "http://english.hanban.org/node_10900.htm"
+      }
+    }
+  ]
+}
