@@ -53,6 +53,10 @@ ul.heading_list {
   font-size: 20px;
   color: #000;
 }
+ul.message {
+  margin-top: 20px;
+  font-size: 16px;
+}
 
 svg {
   font: 10px sans-serif;
