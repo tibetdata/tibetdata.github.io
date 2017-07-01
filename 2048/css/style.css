@@ -589,10 +589,10 @@ Parallax
 ============================ */
 
 .btn {
-	border-radius: 1;
-    text-transform: uppercase;
-    font-family: Montserrat,sans-serif;
-    font-weight: 400;
+	border-radius: 2;
+    /*text-transform: uppercase; */
+    font-family: monospace;,sans-serif;
+    font-weight: 200;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
